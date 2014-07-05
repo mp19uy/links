@@ -54,6 +54,30 @@ section#table{
     float: none;
     margin: 0;
 }
+.el-icon-github {
+    font-size: 24px;
+    vertical-align: middle;
+}
+.github {
+    padding-top:15px !important;
+    vertical-align: middle;
+    padding-bottom: 10px !important;
+    margin-right: 10px;
+}
+.twitter{
+    padding-top:15px !important;
+    vertical-align: middle;
+    padding-bottom: 13px !important;
+}
+.el-icon-twitter{
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+#footer p {
+font-size: 18px;
+color: rgba(75, 75, 75, 0.1);
+}
 /*th {
     text-align: center;
 }
