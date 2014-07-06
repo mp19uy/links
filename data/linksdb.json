@@ -1,0 +1,286 @@
+[
+  {
+    "id" : "math",
+    "title" : "Matematicas",
+    "data" : [
+      {
+        "id" : "cheatsheets",
+        "title" : "Cheatsheets",
+        "data" : [
+          {
+            "name" : "Rapid Tables", 
+            "about" : "Quick reference information and tools.", 
+            "url" : "http://www.rapidtables.com/math/index.htm", 
+            "urltext" : "rapidtables.com/math/index.htm"
+          },
+          {
+            "name" : "Math2.org", 
+            "about" : "Math reference tables.", 
+            "url" : "http://math2.org/", 
+            "urltext" : "math2.org"
+          }
+        ]
+      },
+      {
+        "id" : "latex",
+        "title" : "LaTeX",
+        "data" : [
+          {
+            "name" : "Short Math Guide for LaTeX",
+            "about" : "",
+            "url" : "",
+            "urltext" : ""
+          }
+        ]
+      },
+      {
+        "id" : "subreddits",
+        "title" : "Subreddits",
+        "data" : []
+      },
+      {
+        "id" : "series_numericas",
+        "title" : "Series Numericas",
+        "data" : []
+      },
+      {
+        "id" : "numeros_complejos",
+        "title" : "Numeros Complejos",
+        "data" : []
+      },
+      {
+        "id" : "material_cursos_facultades",
+        "title" : "Material Cursos - Facultades",
+        "data" : []
+      },
+      {
+        "id" : "apuntes_teoricos",
+        "title" : "Apuntes Teoricos",
+        "data" : []
+      },
+      {
+        "id" : "links",
+        "title" : "Enlaces a enlaces",
+        "data" : []
+      },
+      {
+        "id" : "foros",
+        "title" : "Foros",
+        "data" : []
+      },
+      {
+        "id" : "videos",
+        "title" : "Videos",
+        "data" : []
+      }
+    ]
+  },
+  {
+    "id" : "dev",
+    "title" : "Programacion",
+    "data" : [
+      {
+        "id" : "security",
+        "title" : "Seguridad",
+        "data" : []
+      },
+      {
+        "id" : "web",
+        "title" : "Web",
+        "data" : []
+      },
+      {
+        "id" : "tips",
+        "title" : "Tips",
+        "data" : []
+      },
+      {
+        "id" : "configs",
+        "title" : "Configuraciones",
+        "data" : []
+      },
+      {
+        "id" : "videos",
+        "title" : "Videos",
+        "data" : []
+      }                         
+    ]
+  },
+  {
+    "id" : "book",
+    "title" : "Libros",
+    "data" : []
+  },
+  {
+    "id" : "music",
+    "title" : "Musica",
+    "data" : []
+  },
+  {
+    "id" : "vid",
+    "title" : "Videos",
+    "data" : []
+  },
+  {
+    "id" : "buy",
+    "title" : "Compras",
+    "data" : [
+      {
+        "id" : "hardware",
+        "title" : "Hardware",
+        "data" : [
+          {
+            "name" : "Banifox", 
+            "about" : "Juan Paullier 2378 esq Amezaga.", 
+            "url" : "http://www.banifox.com/", 
+            "urltext" : "banifox.com"
+          },
+          {
+            "name" : "Fast Import", 
+            "about" : "GLENOX S.A. - Daniel Muñoz 2258 esq Acevedo Diaz.", 
+            "url" : "http://www.fastimport.com.uy/", 
+            "urltext" : "fastimport.com.uy"
+          },
+          {
+            "name" : "Infinit Tecnology", 
+            "about" : "18 de Julio 1236 Local 6 esq Yi.", 
+            "url" : "http://www.infinit.com.uy/", 
+            "urltext" : "infinit.com.uy"
+          },
+          {
+            "name" : "Infoke", 
+            "about" : "Fernández Crespo 2078 esq Asuncion.", 
+            "url" : "http://www.infoke.com.uy/", 
+            "urltext" : "infoke.com.uy"
+          },
+          {
+            "name" : "Newtek", 
+            "about" : "Aquiles Lanza (ex Yaguaron) 1308 esq San Jose.", 
+            "url" : "http://www.newtekuy.com/catalog/index.php", 
+            "urltext" : "newtekuy.com"
+          },
+          {
+            "name" : "Nnet", 
+            "about" : "Eduardo Víctor Haedo 2362 esq Bulevar Artigas.", 
+            "url" : "http://www.nnet.com.uy/", 
+            "urltext" : "nnet.com.uy"
+          },
+          {
+            "name" : "Ok Computers", 
+            "about" : "Daniel Muñoz 1983 esq Constitucion.", 
+            "url" : "http://www.okcomputers-uy.com/", 
+            "urltext" : "okcomputers-uy.com"
+          },
+          {
+            "name" : "PCStore", 
+            "about" : "Compras por telefono/email.", 
+            "url" : "http://www.pcstore.com.uy/", 
+            "urltext" : "pcstore.com.uy"
+          },
+          {
+            "name" : "Senec", 
+            "about" : "Charrua 2285 esquina Bulevar Artigas.", 
+            "url" : "http://www.senec.com.uy/", 
+            "urltext" : "senec.com.uy"
+          },
+          {
+            "name" : "Tecno Uruguay PC", 
+            "about" : "Camino Maldonando 7117 esq Peteroa.", 
+            "url" : "http://tecnouruguaypc.com.uy/", 
+            "urltext" : "tecnouruguaypc.com.uy"
+          },
+          {
+            "name" : "TecnoCity", 
+            "about" : "La Paz 2285 esq. Cufré.", 
+            "url" : "http://www.tecnocity.com.uy/", 
+            "urltext" : "tecnocity.com.uy"
+          },
+          {
+            "name" : "THOT Computacion", 
+            "about" : "Rivera 3530 BIS esq L. A. de Herrera.", 
+            "url" : "http://www.thotcomputacion.com.uy/", 
+            "urltext" : "thotcomputacion.com.uy"
+          },
+          {
+            "name" : "TINFOPC", 
+            "about" : "Compras por telefono/email.", 
+            "url" : "http://www.tinfopc.net/", 
+            "urltext" : "tinfopc.net"
+          },
+          {
+            "name" : "TOPTECNOUY", 
+            "about" : "Andes 1369 esq 18 de Julio.", 
+            "url" : "http://www.toptecnouy.com/", 
+            "urltext" : "toptecnouy.com"
+          },
+          {
+            "name" : "Tranza", 
+            "about" : "Compras por telefono/email.", 
+            "url" : "http://www.tranza.com/", 
+            "urltext" : "tranza.com"
+          },
+          {
+            "name" : "LOI - La Oferta Irresistible", 
+            "about" : "Wilson Ferreira Aldunate 1301 esq San Jose.", 
+            "url" : "http://loi.com.uy/", 
+            "urltext" : "loi.com.uy"
+          },
+          {
+            "name" : "Urutek", 
+            "about" : "San Martin 3500 esq Jose Quesada.", 
+            "url" : "http://www.urutek.com/", 
+            "urltext" : "urutek.com"
+          },
+          {
+            "name" : "Hard PC", 
+            "about" : "14 de Julio 1362 esq Manuel Haedo.", 
+            "url" : "http://www.hardpc.com.uy/", 
+            "urltext" : "hardpc.com.uy"
+          },
+          {
+            "name" : "Valimel", 
+            "about" : "Mariano Moreno 2215 esq Canstatt.", 
+            "url" : "http://www.valimel.com.uy/", 
+            "urltext" : "valimel.com.uy"
+          }
+        ]
+      },
+      {
+        "id" : "security",
+        "title" : "Seguridad",
+        "data" : [
+          {
+            "name" : "Seguridad Total", 
+            "about" : "Bulevar España 2174 esq Salterain.", 
+            "url" : "http://seguridadtotal.com.uy/", 
+            "urltext" : "seguridadtotal.com.uy"
+          }
+        ]
+      },
+      {
+        "id" : "internacional",
+        "title" : "Internacional",
+        "data" : [
+          {
+            "name" : "Ebay", 
+            "about" : "From USA, Europe, Asia, etc.", 
+            "url" : "http://www.ebay.com/", 
+            "urltext" : "ebay.com"
+          },
+          {
+            "name" : "Deal Extreme", 
+            "about" : "From Hong Kong.", 
+            "url" : "http://www.dx.com/", 
+            "urltext" : "dx.com"
+          },
+          {
+            "name" : "AliExpress", 
+            "about" : "From Asia.", 
+            "url" : "http://www.aliexpress.com/", 
+            "urltext" : "aliexpress.com"
+          }
+        ]
+      }
+    ]
+  }
+]

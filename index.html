@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>L!NKS - Coleccion de links a sitios con material de utilidad.</title>
     
-    <!-- Bootstrap -->
-    <link href="/links/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <!-- CSS -->
         <link href="/links/css/style.css" rel="stylesheet">
     <!-- Icons -->
         <link rel="stylesheet" href="/links/css/elusive-webfont.css">
     <!-- Font -->
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
+    
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -21,55 +22,20 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
+  <body ng-app>
 <section id="barra-menu">
 <nav class="navbar-custom navbar-fixed-top" role="navigation">
   <div>
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse">
+    <div class="collapse navbar-collapse" ng-controller="getJsonData">
       <ul class="nav navbar-nav centralmenu">
-        <li><div class="navbar-header navbar-inverse nav-item">
+          <li><div class="navbar-header navbar-inverse nav-item">
       <a class="navbar-brand" href="/links/index.html">L!NKS</a>
     </div></li>
-        <li class="dropdown nav-item"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Matematicas</a>
+          <li class="dropdown nav-item" ng-repeat="cat in categs"><a href="#" class="dropdown-toggle" data-toggle="dropdown">{{cat.title}}</a>
            <ul class="dropdown-menu" role="menu">
-                                <li><a href="/links/pages/math.html#cheatsheets">Cheatsheets</a></li>
-                                <li><a href="/links/pages/math.html#latex">LaTeX</a></li>
-                                <li><a href="/links/pages/math.html#subreddits">Subreddits</a></li>
-                                <li><a href="/links/pages/math.html#series_numericas">Series Numericas</a></li>
-                                <li><a href="/links/pages/math.html#numeros_complejos">Numeros Complejos</a></li>
-                                <li><a href="/links/pages/math.html#material_cursos_facultades">Material de Cursos - Facultades</a></li>
-                                <li><a href="/links/pages/math.html#apuntes_teoricos">Apuntes Teoricos</a></li>
-                                <li><a href="/links/pages/math.html#links">Enlaces a enlaces</a></li>
-                                <li><a href="/links/pages/math.html#foros">Foros</a></li>
-                                <li><a href="/links/pages/math.html#videos">Videos</a></li>
-          </ul>
-        </li>
-        <li class="dropdown nav-tem"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Programacion</a>
-        <ul class="dropdown-menu" role="menu">
-                                <li><a href="/links/pages/dev.html#security">Seguridad</a></li>
-                                <li><a href="/links/pages/dev.html#videos">Videos</a></li>
-          </ul>
-        </li>
-        <li class="dropdown nav-item"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Libros</a>
-        <ul class="dropdown-menu" role="menu">
-            <li><a href="/links/pages/book.html#">Dev1</a></li>
-          </ul>
-        </li>
-        <li class="dropdown nav-item"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Musica</a>
-        <ul class="dropdown-menu" role="menu">
-            <li><a href="/links/pages/music.html#">Dev1</a></li>
-          </ul>
-        </li>
-        <li class="dropdown nav-item"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Videos</a>
-        <ul class="dropdown-menu" role="menu">
-            <li><a href="/links/pages/vid.html#">Dev1</a></li>
-          </ul>
-        </li>
-        <li class="dropdown nav-item"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Compras</a>
-        <ul class="dropdown-menu" role="menu">
-            <li><a href="/links/pages/buy.html#">Dev1</a></li>
-          </ul>
+             <li ng-repeat="e in cat.data"><a href="/pages/{{cat.id}}.html#{{e.id}}">{{e.title}}</a></li>
+           </ul>
         </li>
       </ul>
     <ul class="nav navbar-nav navbar-left">
@@ -106,12 +72,15 @@
     <section id="footer">
     <p>Information Must Be Free</p>
     </section>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- jQuery CDN -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="/links/js/bootstrap.min.js"></script>
-    <!-- script with special effects -->
-    <!--<script src="/links/js/script.js"></script>-->
+    <!-- Bootstrap CDN -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <!--Angular JS framework-->
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+    <!-- Read Json script -->
+    <script src="js/readjson.js"></script>
+    
     <!-- Google Analytics Tracking-->
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
