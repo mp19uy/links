@@ -26,10 +26,7 @@ html, body
     height: 100%;
 }
 #separador{
-    margin-top: 50px;
-        margin-bottom: 50px;
-    padding-bottom: 50px;
-    bottom: 0;
+    height: 50%;
 }
 h1 {
   text-align: center;
