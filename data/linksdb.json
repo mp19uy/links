@@ -18,6 +18,18 @@
             "about" : "Math reference tables.", 
             "url" : "http://math2.org/", 
             "urltext" : "math2.org"
+          },
+          {
+            "name" : "Better Explained", 
+            "about" : "Math explanations. I share the Aha! moments that helped me, from imaginary numbers to exponents and more.", 
+            "url" : "http://betterexplained.com/", 
+            "urltext" : "betterexplained.com"
+          },
+          {
+            "name" : "Ditutor", 
+            "about" : "Diccionario de matematicas.", 
+            "url" : "http://www.ditutor.com/", 
+            "urltext" : "ditutor.com"
           }
         ]
       },
@@ -27,51 +39,293 @@
         "data" : [
           {
             "name" : "Short Math Guide for LaTeX",
-            "about" : "",
-            "url" : "",
-            "urltext" : ""
+            "about" : "Concise summary of recommended features in LaTeX.",
+            "url" : "ftp://ftp.ams.org/pub/tex/doc/amsmath/short-math-guide.pdf",
+            "urltext" : "ftp.ams.org/pub/tex/doc/amsmath/short-math-guide.pdf"
+          },
+          {
+            "name" : "LaTeX Symbol Tables",
+            "about" : "Very complete list of symbols in LaTeX.",
+            "url" : "http://wikieducator.org/Help:LaTeX_Symbol_Tables_-_Mathematics",
+            "urltext" : "wikieducator.org/Help:LaTeX_Symbol_Tables_-_Mathematics"
+          },
+          {
+            "name" : "Manual de LaTeX",
+            "about" : "En Español.",
+            "url" : "https://es.wikibooks.org/wiki/Manual_de_LaTeX",
+            "urltext" : "wikibooks.org/wiki/Manual_de_LaTeX"
+          },
+          {
+            "name" : "LaTeX Guide",
+            "about" : "English Wikipedia.",
+            "url" : "https://en.wikibooks.org/wiki/LaTeX/",
+            "urltext" : "wikibooks.org/wiki/LaTeX"
           }
         ]
       },
       {
         "id" : "subreddits",
         "title" : "Subreddits",
-        "data" : []
+        "data" : [
+          {
+            "name" : "Subreddit /r/math",
+            "about" : "Discussion of mathematical links and questions.",
+            "url" : "http://www.reddit.com/r/math",
+            "urltext" : "reddit.com/r/math"
+          },
+          {
+            "name" : "Subreddit /r/cheats",
+            "about" : "A subreddit for all kinds of cheat sheets!",
+            "url" : "http://www.reddit.com/r/cheats/",
+            "urltext" : "reddit.com/r/cheats"
+          }
+        ]
       },
       {
         "id" : "series_numericas",
         "title" : "Series Numericas",
-        "data" : []
+        "data" : [
+          {
+            "name" : "Convergencia",
+            "about" : "Diagrama de flujo de pruebas de convergencia de series.",
+            "url" : "http://www.math.hawaii.edu/~ralph/Classes/242/SeriesConvTests.pdf",
+            "urltext" : "math.hawaii.edu/~ralph/Classes/242/SeriesConvTests.pdf"
+          },
+          {
+            "name" : "",
+            "about" : "Aplicacion de criterios de convergencia.",
+            "url" : "http://www2.kenyon.edu/Depts/Math/Kalaycioglu/Calculus%20B/testsforconvergencewithanswers.pdf",
+            "urltext" : "kenyon.edu/Depts/Math/Kalaycioglu/Calculus B/testsforconvergencewithanswers.pdf"
+          }
+        ]
       },
       {
         "id" : "numeros_complejos",
         "title" : "Numeros Complejos",
-        "data" : []
+        "data" : [
+          {
+            "name" : "Raices cuadradas",
+            "about" : "Formula para averiguar las dos raices cuadradas de un complejo.",
+            "url" : "https://en.wikipedia.org/wiki/Complex_square_root#Algebraic_formula",
+            "urltext" : "wikipedia.org/wiki/Complex_square_root#Algebraic_formula"
+          }
+        ]
       },
       {
         "id" : "material_cursos_facultades",
         "title" : "Material Cursos - Facultades",
-        "data" : []
+        "data" : [
+          {
+            "name" : "FING - Uruguay",
+            "about" : "Docente Eleonora Catsigeras.",
+            "url" : "http://www.fing.edu.uy/~eleonora/",
+            "urltext" : "fing.edu.uy/~eleonora"
+          },
+          {
+            "name" : "",
+            "about" : "Blog Material al Toque.",
+            "url" : "http://materialaltoque.blogspot.com/",
+            "urltext" : "materialaltoque.blogspot.com"
+          },
+          {
+            "name" : "Paul's Online Math Notes",
+            "about" : "Algebra, Calculus, Diferential Equations, Complex Numbers, Cheatsheets.",
+            "url" : "http://tutorial.math.lamar.edu/",
+            "urltext" : "tutorial.math.lamar.edu"
+          },
+          {
+            "name" : "University of Hawaii",
+            "about" : "Professor Ralph Freese.",
+            "url" : "http://www.math.hawaii.edu/~ralph",
+            "urltext" : "math.hawaii.edu/~ralph"
+          },
+          {
+            "name" : "Universidad de Valladolid",
+            "about" : "Docente José Antonio Abia Vian.",
+            "url" : "http://www.ma.uva.es/~antonio/Industriales/",
+            "urltext" : "ma.uva.es/~antonio/Industriales"
+          },
+          {
+            "name" : "Universidad de Malaga",
+            "about" : "Docente Carlos Guerrero Garcia.",
+            "url" : "http://www.matap.uma.es/~carlitos/",
+            "urltext" : "matap.uma.es/~carlitos"
+          },
+          {
+            "name" : "",
+            "about" : "Docente Jose Luis Leal Ruperto.",
+            "url" : "http://matleal.wordpress.com/",
+            "urltext" : "matleal.wordpress.com"
+          },
+          {
+            "name" : "Computer Lab - Cambridge",
+            "about" : "Materials provided by lecturers for CS-Math courses.",
+            "url" : "http://www.cl.cam.ac.uk/teaching",
+            "urltext" : "cl.cam.ac.uk/teaching"
+          },
+          {
+            "name" : "Universidad de los Andes - Colombia",
+            "about" : "Recursos Matematicos muy completos.",
+            "url" : "https://web.archive.org/web/20070707160358/http://elcentro.uniandes.edu.co/index.htm",
+            "urltext" : "elcentro.uniandes.edu.co"
+          },
+          {
+            "name" : "Universidad de Chile",
+            "about" : "Material cursos: Algebra, Calculo, Ecuaciones Diferenciales, Probabilidad y Estadistica.",
+            "url" : "http://www-old.dim.uchile.cl/~docencia/",
+            "urltext" : "dim.uchile.cl/~docencia"
+          },
+          {
+            "name" : "University Stony Brook",
+            "about" : "Professor Steven Skiena.",
+            "url" : "http://www.cs.sunysb.edu/~skiena/teaching/",
+            "urltext" : "cs.sunysb.edu/~skiena"
+          }
+        ]
       },
       {
         "id" : "apuntes_teoricos",
         "title" : "Apuntes Teoricos",
-        "data" : []
+        "data" : [
+          {
+            "name" : "CATEDU - España",
+            "about" : "Materiales de apoyo Matematicas Bachillerato.",
+            "url" : "http://www.catedu.es/matematicas_blecua/",
+            "urltext" : "catedu.es/matematicas_blecua"
+          },
+          {
+            "name" : "Jose Contreras",
+            "about" : "Apuntes teoricos de producto notable, factorizacion, funciones, vectores, derivadas, integracion.",
+            "url" : "http://jvcontrerasj.com/PENSAMIENTO-MATEMATICO.php",
+            "urltext" : "jvcontrerasj.com"
+          },
+          {
+            "name" : "Matematica 50webs",
+            "about" : "Recopilación de apuntes de clase y material extraído de libros de texto de Calculo y Matematica Discreta.",
+            "url" : "http://matematica.50webs.com/",
+            "urltext" : "matematica.50webs.com"
+          },
+          {
+            "name" : "Wikillerato",
+            "about" : "Resumenes de asignaturas de bachillerato.",
+            "url" : "http://wikillerato.org/Portada.html",
+            "urltext" : "wikillerato.org"
+          },
+          {
+            "name" : "Vitutor",
+            "about" : "Matematica de bachillerato.",
+            "url" : "http://www.vitutor.com/",
+            "urltext" : "vitutor.com"
+          },
+          {
+            "name" : "",
+            "about" : "Fórmulas y tablas de matemáticas.",
+            "url" : "http://www.vitutor.net/",
+            "urltext" : "vitutor.net"
+          },
+          {
+            "name" : "Geoka",
+            "about" : "Apuntes, ejercicios y problemas de Geometría.",
+            "url" : "http://www.geoka.net/",
+            "urltext" : "geoka.net"
+          },
+          {
+            "name" : "Geoan",
+            "about" : "Apuntes, ejercicios y problemas de Geometría Analítica.",
+            "url" : "http://www.geoan.com/",
+            "urltext" : "geoan.com"
+          },
+          {
+            "name" : "Aritor",
+            "about" : "Trigonometria.",
+            "url" : "http://www.aritor.com/",
+            "urltext" : "aritor.com"
+          },
+          {
+            "name" : "Dervor",
+            "about" : "Derivadas.",
+            "url" : "http://www.dervor.com/",
+            "urltext" : "dervor.com"
+          },
+          {
+            "name" : "Inetor",
+            "about" : "Integrales.",
+            "url" : "http://www.inetor.com/",
+            "urltext" : "inetor.com"
+          },
+          {
+            "name" : "Sector Matematica",
+            "about" : "Apuntes matematicos.",
+            "url" : "http://www.sectormatematica.cl/",
+            "urltext" : "sectormatematica.cl"
+          }
+        ]
       },
       {
         "id" : "links",
         "title" : "Enlaces a enlaces",
-        "data" : []
+        "data" : [
+          {
+            "name" : "List useful free online math",
+            "about" : "Reddit list of math sites and resources.",
+            "url" : "http://www.reddit.com/r/math/comments/bqbex/lets_list_all_the_useful_free_online_math/",
+            "urltext" : "reddit.com/r/math/comments/bqbex/lets_list_all_the_useful_free_online_math"
+          }
+        ]
       },
       {
         "id" : "foros",
         "title" : "Foros",
-        "data" : []
+        "data" : [
+          {
+            "name" : "Foro Matematico",
+            "about" : "Comunidad matematica.",
+            "url" : "http://www.fmat.cl/index.php?act=idx",
+            "urltext" : "fmat.cl"
+          }
+        ]
       },
       {
         "id" : "videos",
         "title" : "Videos",
-        "data" : []
+        "data" : [
+          {
+            "name" : "Steven Skiena",
+            "about" : "Discrete Mathematics Course at Stony Brook University.",
+            "url" : "https://www.youtube.com/playlist?list=PL462275E91FC7844D",
+            "urltext" : "youtube.com/user/StevenSkiena"
+          },
+          {
+            "name" : "NPTEL - India",
+            "about" : "Technical lectures from seven Indian Institutes of Technology and Science.",
+            "url" : "http://nptel.ac.in/",
+            "urltext" : "nptel.ac.in"
+          },
+          {
+            "name" : "OpenFING - Uruguay",
+            "about" : "Cursos FING - UDELAR.",
+            "url" : "http://open.fing.edu.uy/",
+            "urltext" : "open.fing.edu.uy"
+          },
+          {
+            "name" : "Webcast Berkley",
+            "about" : "Video lectures from University of California - Berkley.",
+            "url" : "http://webcast.berkeley.edu/",
+            "urltext" : "webcast.berkeley.edu"
+          },
+          {
+            "name" : "Academatica",
+            "about" : "Temas de matemática para ingeniería.",
+            "url" : "https://www.youtube.com/user/chzelada/playlists?shelf_id=1&sort=dd&view=1",
+            "urltext" : "youtube.com/user/chzelada"
+          },
+          {
+            "name" : "Youtube EDU",
+            "about" : "Matematica.",
+            "url" : "https://www.youtube.com/channel/UC6C2bxSjmNzfsBi9VWpKHPg",
+            "urltext" : "youtube.com/channel/UC6C2bxSjmNzfsBi9VWpKHPg"
+          }
+        ]
       }
     ]
   },
@@ -82,27 +336,74 @@
       {
         "id" : "security",
         "title" : "Seguridad",
-        "data" : []
+        "data" : [
+          {
+            "name" : "Andreas Happe's Blog",
+            "about" : "Software engineer and penetration tester.",
+            "url" : "https://snikt.net/",
+            "urltext" : "snikt.net"
+          }
+        ]
       },
       {
         "id" : "web",
         "title" : "Web",
-        "data" : []
+        "data" : [
+          {
+            "name" : "Vida MRR",
+            "about" : "Blog de diseño y desarrollo web.",
+            "url" : "http://www.vidamrr.com/",
+            "urltext" : "vidamrr.com"
+          }
+        ]
       },
       {
         "id" : "tips",
         "title" : "Tips",
-        "data" : []
+        "data" : [
+          {
+            "name" : "140 Geek",
+            "about" : "Tips rapidos para geeks.",
+            "url" : "http://www.140geek.com/",
+            "urltext" : "140geek.com"
+          }
+        ]
       },
       {
         "id" : "configs",
         "title" : "Configuraciones",
-        "data" : []
+        "data" : [
+          {
+            "name" : "C.onfigs",
+            "about" : "Blog that keeps track of the right configuration articles.",
+            "url" : "http://c.onfigs.com/",
+            "urltext" : "c.onfigs.com"
+          }
+        ]
       },
       {
         "id" : "videos",
         "title" : "Videos",
-        "data" : []
+        "data" : [
+          {
+            "name" : "Acamica",
+            "about" : "Cursos basados en microaprendizaje ramificado.",
+            "url" : "http://www.acamica.com/cursos",
+            "urltext" : "acamica.com"
+          },
+          {
+            "name" : "Computer Science 75",
+            "about" : "Building Dynamic Websites course from Harvard.",
+            "url" : "http://www.cs75.tv/",
+            "urltext" : "cs75.tv"
+          },
+          {
+            "name" : "Youtube EDU",
+            "about" : "Ingenieria.",
+            "url" : "https://www.youtube.com/channel/UCzG3hrquhYMSevy-o-U50Bg",
+            "urltext" : "youtube.com/channel/UCzG3hrquhYMSevy-o-U50Bg"
+          }
+        ]
       }                         
     ]
   },
