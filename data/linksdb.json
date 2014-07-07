@@ -380,6 +380,18 @@
         "title" : "Recursos",
         "data" : [
           {
+            "id" : "doc",
+            "title" : "Documentacion",
+            "data" : [
+              {
+                "name" : "Markdown",
+                "about" : "Guia oficial.",
+                "url" : "http://daringfireball.net/projects/markdown/syntax",
+                "urltext" : "daringfireball.net/projects/markdown/syntax"
+              }
+            ]
+          },
+          {
             "id" : "cheatsheets",
             "title" : "Cheatsheets",
             "data" : [
@@ -500,6 +512,18 @@
         "title" : "Web",
         "data" : [
           {
+            "id" : "tuto",
+            "title" : "Tutoriales",
+            "data" : [
+              {
+                "name" : "1Keydata",
+                "about" : "Fee online programming tutorials and information on data warehousing.",
+                "url" : "http://www.1keydata.com/",
+                "urltext" : "1keydata.com"
+              }
+            ]
+          },
+          {
             "id" : "blogs",
             "title" : "Blogs",
             "data" : [
@@ -508,6 +532,54 @@
                 "about" : "Blog de diseño y desarrollo web.",
                 "url" : "http://www.vidamrr.com/",
                 "urltext" : "vidamrr.com"
+              }
+            ]
+          },
+          {
+            "id" : "js",
+            "title" : "JavaScript",
+            "data" : [
+              {
+                "name" : "JavaScript Garden",
+                "about" : "Collection of documentation about the most quirky parts of the JavaScript programming language.", 
+                "url" : "http://bonsaiden.github.io/JavaScript-Garden/",
+                "urltext" : "bonsaiden.github.io/JavaScript-Garden"
+              }
+            ]
+          },
+          {
+            "id" : "tools",
+            "title" : "Herramientas",
+            "data" : [
+              {
+                "name" : "FoxySpider",
+                "about" : "Firefox add-on web crawler.",
+                "url" : "http://www.foxyspider.com/",
+                "urltext" : "foxyspider.com"
+              },
+              {
+                "name" : "Stylish",
+                "about" : "Change the css of a website from client side.",
+                "url" : "https://userstyles.org/",
+                "urltext" : "userstyles.org"
+              },
+              {
+                "name" : "Media Hint",
+                "about" : "Access internet media streaming services with country restrictions like Hulu, Netflix and Pandora from anywhere in the world.",
+                "url" : "https://mediahint.com/",
+                "urltext" : "mediahint.com"
+              },
+              {
+                "name" : "FoxyProxy",
+                "about" : "Set of proxy management tools for Firefox, Google Chrome, and Internet Explorer.",
+                "url" : "http://getfoxyproxy.org/",
+                "urltext" : "getfoxyproxy.org"
+              },
+              {
+                "name" : "Tweetdeck",
+                "about" : "Social media dashboard application for management of Twitter accounts. ",
+                "url" : "https://tweetdeck.twitter.com/",
+                "urltext" : "tweetdeck.twitter.com"
               }
             ]
           }
@@ -556,6 +628,36 @@
                 "about" : "Security talks and hackerconfs videos.",
                 "url" : "http://www.securitytube.net/",
                 "urltext" : "securitytube.net"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "ctrl_ver",
+        "title" : "Control de Version",
+        "data" : [
+          {
+            "id" : "git",
+            "title" : "Git",
+            "data" : [
+              {
+                "name" : "Git Tutorial",
+                "about" : "Got 15 minutes and want to learn Git?",
+                "url" : "https://try.github.io/levels/1/challenges/1",
+                "urltext" : "try.github.io"
+              },
+              {
+                "name" : "Pro GIT Book",
+                "about" : "Book to learn git.",
+                "url" : "http://git-scm.com/book",
+                "urltext" : "git-scm.com/book"
+              },
+              {
+                "name" : "Learn Git Branching",
+                "about" : "Application designed to help beginners grasp the powerful concepts behind branching when working with git.",
+                "url" : "http://pcottle.github.io/learnGitBranching/",
+                "urltext" : "pcottle.github.io/learnGitBranching"
               }
             ]
           }
