@@ -32,9 +32,13 @@
           <li><div class="navbar-header navbar-inverse nav-item">
       <a class="navbar-brand" href="#">L!NKS</a>
     </div></li>
-          <li class="dropdown nav-item" ng-repeat="cat in categs"><a href="#" class="dropdown-toggle" data-toggle="dropdown">{{cat.title}}</a>
+          <li class="nav-item" ng-repeat="cat in categs"><a href="#" class="dropdown-toggle" data-toggle="dropdown">{{cat.title}}</a>
            <ul class="dropdown-menu" role="menu">
-             <li ng-repeat="e in cat.data"><a href="/links/index.html#{{cat.id}}_{{e.id}}">{{e.title}}</a></li>
+             <li ng-repeat="e in cat.data" class="dropdown-submenu"><a href="/links/index.html#{{cat.id}}_{{e.id}}">{{e.title}}</a>
+             <ul class=" nav-item dropdown-menu" role="menu">
+               <li ng-repeat="c in e.data"><a href="/links/index.html#{{cat.id}}_{{e.id}}_{{c.id}}">{{c.title}}</a></li>
+             </ul>
+             </li>
            </ul>
         </li>
       </ul>
@@ -70,16 +74,17 @@
     </section>
      <section id="table">
         <div ng-repeat="cat in categs">
-          <div class="jumbotron"><h1 id="{{cat.id}}">{{cat.title}}</h1></div>
+          <div class="jumbotron"><h1 class="jump" id="{{cat.id}}">{{cat.title}}</h1></div>
            <table class="table table-bordered table-condensed">
             <tbody>
-                <tr class="success" ng-repeat-start="subcat in cat.data"><td colspan="3"><h3 id="{{cat.id}}_{{subcat.id}}" class="jump">{{subcat.title}}</h3></td></tr>
+                <tr class="warning" ng-repeat-start="subcat in cat.data"><th colspan="3"><h2 class="jump" id="{{cat.id}}_{{subcat.id}}">{{subcat.title}}</h2></th></tr>
+                <tr class="success" ng-repeat-start="subsubcat in subcat.data"><td colspan="3"><h3 id="{{cat.id}}_{{subcat.id}}_{{subsubcat.id}}" class="jump">{{subsubcat.title}}</h3></td></tr>
                 <tr class ="info">
                     <th><span class="glyphicon glyphicon-font"></span> Nombre</th>
                     <th><span class="glyphicon glyphicon-list-alt"></span> Descripcion</th>   
                     <th><span class="glyphicon glyphicon-globe"></span> Enlace</th>   
                 </tr>
-                <tr ng-repeat="item in subcat.data">
+                <tr ng-repeat-end ng-repeat="item in subsubcat.data">
                     <td>{{item.name}}</td>
                     <td>{{item.about}}</td>
                     <td><a href="{{item.url}}" target="_blank">{{item.urltext}}</a></td>
