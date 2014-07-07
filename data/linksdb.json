@@ -372,8 +372,8 @@
     ]
   },
   {
-    "id" : "dev",
-    "title" : "Programacion",
+    "id" : "cs",
+    "title" : "Computacion",
     "data" : [
       {
         "id" : "resources",
@@ -658,6 +658,36 @@
                 "about" : "Application designed to help beginners grasp the powerful concepts behind branching when working with git.",
                 "url" : "http://pcottle.github.io/learnGitBranching/",
                 "urltext" : "pcottle.github.io/learnGitBranching"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "cost",
+        "title" : "De pago",
+        "data" : [
+          {
+            "id" : "courses",
+            "title" : "Cursos",
+            "data" : [
+              {
+                "name" : "Safari Books Online",
+                "about" : "Provides learning resources needed to excel in technology, design, and business.",
+                "url" : "http://www.safaribooksonline.com/",
+                "urltext" : "safaribooksonline.com"
+              },
+              {
+                "name" : "Treehouse",
+                "about" : "Learn how to build websites & apps, write code or start a business.",
+                "url" : "http://teamtreehouse.com/",
+                "urltext" : "teamtreehouse.com"
+              },
+              {
+                "name" : "Lynda",
+                "about" : "Online video tutorials to help you learn software, creative, and business skills.",
+                "url" : "http://www.lynda.com/",
+                "urltext" : "lynda.com"
               }
             ]
           }
