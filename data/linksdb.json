@@ -776,10 +776,16 @@
         "title" : "Mac OS",
         "data" : [
           {
-            "name" : "tonymac86 - hackintosh",
-            "about" : "Site/Blog/Forum with guides to install a hackintosh (Mac OS in PC).",
-            "url" : "http://www.tonymacx86.com/home.php",
-            "urltext" : "tonymacx86.com"
+            "id" : "hackintosh",
+            "title" : "Hackintosh",
+            "data" : [
+              {
+                "name" : "tonymac86",
+                "about" : "Site/Blog/Forum with guides to install a hackintosh.",
+                "url" : "http://www.tonymacx86.com/home.php",
+                "urltext" : "tonymacx86.com"
+              }
+            ]
           }
         ]
       },
