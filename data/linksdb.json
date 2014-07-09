@@ -1024,6 +1024,48 @@
                 "about" : "Internet radio created by people, not algorithms.",
                 "url" : "http://8tracks.com/",
                 "urltext" : "8tracks.com"
+              },
+              {
+                "name" : "1.FM",
+                "about" : "Swiss based online radio network broadcasting a variety of internet radio channels covering various music genres, time period and styles.",
+                "url" : "http://www.1.fm/",
+                "urltext" : "1.fm"
+              },
+              {
+                "name" : "Raute Musik",
+                "about" : "Multi-genre german radio.",
+                "url" : "http://www.rautemusik.fm/",
+                "urltext" : "rautemusik.fm"
+              },
+              {
+                "name" : "Radionomy",
+                "about" : "Wide variety of music and themed online radio stations, accessible anywhere, produced and run by passionate people: music fans, artists, DJs, opinion leaders, comedians, story tellers, etc.",
+                "url" : "http://www.radionomy.com/en#!/en",
+                "urltext" : "radionomy.com"
+              },
+              {
+                "name" : "TuneIn",
+                "about" : "TuneIn enables people to discover, follow, and listen to what's most important to them: from sports, to news, to music, to talk.",
+                "url" : "http://tunein.com/",
+                "urltext" : "tunein.com"
+              },
+              {
+                "name" : "Top 100 Station",
+                "about" : "Germany's No. 1 Web hit radio.",
+                "url" : "http://www.top100station.de/",
+                "urltext" : "top100station.de"
+              }
+            ]
+          },
+          {
+            "id" : "popp",
+            "title" : "Pop-Punk",
+            "data"  : [
+              {
+                "name" : "IDOBI",
+                "about" : "Alternative Pop-Punk internet radio, music news, videos.",
+                "url" : "http://idobi.com/",
+                "urltext" : "idobi.com"
               }
             ]
           },
@@ -1042,8 +1084,62 @@
                 "about" : "World's #1 Trance Radio.",
                 "url" : "http://ah.fm/player/",
                 "urltext" : "ah.fm"
+              },
+              {
+                "name" : "Ibiza Global Radio",
+                "about" : "10 years of 24/7 non stop amazing electronic music.",
+                "url" : "http://ibizaglobalradio.com",
+                "urltext" : "ibizaglobalradio.com"
+              },
+              {
+                "name" : "SanFM",
+                "about" : "Various electronic styles and relax (russian radio).",
+                "url" : "http://sanfm.ru:8000/live.m3u",
+                "urltext" : "sanfm.ru:8000/live.m3u"
+              },
+              {
+                "name" : "Dubstep.fm",
+                "about" : "Dubstep radio.",
+                "url" : "http://www.dubstep.fm/",
+                "urltext" : "dubstep.fm"
               }
             ]
+          },
+          {
+            "id" : "gaming",
+            "title" : "Gaming",
+            "data" : [
+              {
+                "name" : "Grind.FM",
+                "about" : "We cover the brightest events of the game world! Aside from the great music, we guarantee the latest information and hottest news game industry (Russian Radio).",
+                "url" : "https://translate.google.com/translate?hl=es-419&sl=ru&tl=en&u=http%3A%2F%2Fwww.grind.fm%2F",
+                "urltext" : "grind.fm"
+              }
+            ]
+          },
+          {
+            "id" : "cc",
+            "title" : "Creative Commons",
+            "data" : [
+              {
+                "name" : "The Radio.cc",
+                "about" : "",
+                "url" : "https://translate.googleusercontent.com/translate_c?depth=1&hl=es&ie=UTF8&prev=_t&rurl=translate.google.com&sl=auto&tl=en&u=http://theradio.cc/radio-horen/&usg=ALkJrhhuJtRYnwQrPbs_k8QyO942iF-7rg",
+                "urltext" : "theradio.cc/radio-horen"
+              }
+            ]
+          },
+          {
+            "id" : "uni",
+            "title" : "Universitarias",
+            "data" : [
+              {
+                "name" : "Spinnaker",
+                "about" : "University of North Florida, Campus radio station.",
+                "url" : "http://unfspinnaker.com/radio/playlist/",
+                "urltext" : "unfspinnaker.com/radio/playlist"
+              }
+            ]   
           }
         ]
       },
