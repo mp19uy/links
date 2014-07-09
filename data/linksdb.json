@@ -992,7 +992,80 @@
   {
     "id" : "music",
     "title" : "Musica",
-    "data" : []
+    "data" : [
+      {
+        "id" : "radio",
+        "title" : "Radios",
+        "data" : [
+          {
+            "id" : "multi",
+            "title" : "Multi Genero",
+            "data" : [
+              {
+                "name" : "Pandora",
+                "about" : "It’s a new kind of radio, stations that play only music you like (requires using mediahint plugin if outside of USA).",
+                "url" : "http://www.pandora.com/",
+                "urltext" : "pandora.com"
+              },
+              {
+                "name" : "Spotify",
+                "about" : "Listen to the right music, wherever you are.",
+                "url" : "https://play.spotify.com/",
+                "urltext" : "play.spotify.com"
+              },
+              {
+                "name" : "Grooveshark",
+                "about" : "Listen to free music online, internet radio.",
+                "url" : "http://grooveshark.com",
+                "urltext" : "grooveshark.com"
+              },
+              {
+                "name" : "8 Tracks",
+                "about" : "Internet radio created by people, not algorithms.",
+                "url" : "http://8tracks.com/",
+                "urltext" : "8tracks.com"
+              }
+            ]
+          },
+          {
+            "id" : "electro",
+            "title" : "Electronica",
+            "data" : [
+              {
+                "name" : "Digital Imported",
+                "about" : "Over 75 radio channles of the best electronic music.",
+                "url" : "http://www.di.fm/",
+                "urltext" : "di.fm"
+              },
+              {
+                "name" : "After Hours",
+                "about" : "World's #1 Trance Radio.",
+                "url" : "http://ah.fm/player/",
+                "urltext" : "ah.fm"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "download",
+        "title" : "Descargas",
+        "data" : [
+          {
+            "id" : "comp",
+            "title" : "Compilaciones / Discos",
+            "data"  : [
+              {
+                "name" : "Bubanee",
+                "about" : "Collections, top and new songs, disks and FLAC high quality music.",
+                "url" : "http://www.bubaneemusic2.com/",
+                "urltext" : "bubaneemusic2.com"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "id" : "vid",
