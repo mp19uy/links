@@ -793,7 +793,7 @@
             "data" : [
               {
                 "name" : "Openlibra",
-                "about" : "",
+                "about" : "Biblioteca Libre online.",
                 "url" : "http://www.etnassoft.com/biblioteca/",
                 "urltext" : "etnassoft.com/biblioteca"
               },
@@ -868,7 +868,7 @@
                 "about" : "Electronic library. Download books free. Finding books.",
                  "url" : "http://bookzz.org/",
                  "urltext" : "bookzz.org"
-              }
+              } 
             ]
           }
         ]
