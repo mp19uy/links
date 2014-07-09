@@ -682,6 +682,108 @@
         ]
       },
       {
+        "id" : "unix",
+        "title" : "Linux / Unix",
+        "data" : [
+          {
+            "id" : "general",
+            "title" : "General",
+            "data" : [
+              {
+                "name" : "The Linux Documentation Project",
+                "about" : "Very long-standing project whose aim is to document all aspects of the GNU/Linux operating system and associated applications software.",
+                "url" : "http://tldp.org/",
+                "urltext" : "tldp.org"
+              }
+            ]
+          },
+          {
+            "id" : "cmds",
+            "title" : "Comandos",
+            "data" : [
+              {
+                "name" : "Linux Information Project",
+                "about" : "This project is dedicated to providing high quality, comprehensive and easily accessible information about Linux and other free software.",
+                "url" : "http://www.linfo.org/",
+                "urltext" : "linfo.org"
+              },
+              {
+                "name" : "SS64",
+                "about" : "Command line reference, Web, Database and OS scripting.",
+                "url" : "http://ss64.com/",
+                "urltext" : "ss64.com"
+              }
+            ]
+          },
+          {
+            "id" : "script",
+            "title" : "Scripting",
+            "data" : [
+              {
+                "name" : "GNU OS - Bash",
+                "about" : "GNU Project's shell documentation.",
+                "url" : "http://www.gnu.org/software/bash/",
+                "urltext" : "gnu.org/software/bash"
+              },
+              {
+                "name" : "Advanced Bash-Scripting Guide",
+                "about" : "An in-depth exploration of the art of shell scripting.",
+                "url" : "http://tldp.org/LDP/abs/html/index.html",
+                "urltext" : "tldp.org/LDP/abs/html"
+              },
+              {
+                "name" : "Linux Shell Scripting Tutorial",
+                "about" : "Beginners handbook for new Linux users / Sys admins and school students studying Linux or computer science.",
+                "url" : "http://bash.cyberciti.biz/guide/Main_Page",
+                "urltext" : "bash.cyberciti.biz/guide"
+              }
+            ]
+          },
+          {
+            "id" : "regexp",
+            "title" : "Regular Expressions",
+            "data" : [
+              {
+                "name" : "Regular expressions tutorial",
+                "about" : "Learn regular expressions in about 55 minutes.",
+                "url" : "http://qntm.org/files/re/re.html",
+                "urltext" : "qntm.org/files/re/re"
+              }
+            ]
+          },
+          {
+            "id" : "tools",
+            "title" : "Herramientas",
+            "data" : [
+              {
+                "name" : "PDFtk",
+                "about" : "Simple tool for doing everyday things with PDF documents.",
+                "url" : "http://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/",
+                "urltext" : "pdflabs.com/tools/pdftk-the-pdf-toolkit"
+              },
+              {
+                "name" : "Briss",
+                "about" : "Simple cross-platform (Linux, Windows, Mac OSX) application for cropping PDF files.",
+                "url" : "http://briss.sourceforge.net/",
+                "urltext" : "briss.sourceforge.net"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "mac",
+        "title" : "Mac OS",
+        "data" : [
+          {
+            "name" : "tonymac86 - hackintosh",
+            "about" : "Site/Blog/Forum with guides to install a hackintosh (Mac OS in PC).",
+            "url" : "http://www.tonymacx86.com/home.php",
+            "urltext" : "tonymacx86.com"
+          }
+        ]
+      },
+      {
         "id" : "cost",
         "title" : "De pago",
         "data" : [
@@ -820,6 +922,12 @@
                 "about" : "Free books from O'Reilly.",
                 "url" : "http://www.oreilly.com/free/",
                 "urltext" : "oreilly.com/free"
+              },
+              {
+                "name" : "GitBook",
+                "about" : "Discover great books, Write using a full featured editor, Publish as an ebook using the tools you know.",
+                "url" : "https://www.gitbook.io/explore",
+                "urltext" : "gitbook.io/explore"
               }
             ]
           },
