@@ -3,6 +3,7 @@ body {
     padding-top: 54px;
 }
 h3.jump {
+    text-align: center;
     padding-top:  60px;
     margin-top: -60px;
 }
@@ -37,6 +38,10 @@ h2.jump {
   padding-top:  60px;
   margin-top: -60px;
   text-align: center;
+}
+.nombre {
+  font-size: 19px;
+  color: #1b2a2a;
 }
 #footer {
  padding-top: 125px;
@@ -92,12 +97,12 @@ h2.jump {
 font-size: 18px;
 color: rgba(75, 75, 75, 0.1);
 }
-/*th {
+th {
     text-align: center;
 }
-td {
+td{
     text-align: center;
-}*/
+}
 .navbar-custom {
   background-color: #20bd55;
   border-color: #1ba148;

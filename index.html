@@ -75,7 +75,10 @@
      <section id="table">
         <div ng-repeat="cat in categs">
           <div class="jumbotron"><h1 class="jump" id="{{cat.id}}">{{cat.title}}</h1></div>
-           <table class="table table-bordered table-condensed">
+           <table class="table table-bordered table-condensed" width="100%">
+             <col style="width:30%">
+             <col style="width:40%">
+             <col style="width:30%">
             <tbody>
                 <tr class="warning" ng-repeat-start="subcat in cat.data"><th colspan="3"><h2 class="jump" id="{{cat.id}}_{{subcat.id}}">{{subcat.title}}</h2></th></tr>
                 <tr class="success" ng-repeat-start="subsubcat in subcat.data"><td colspan="3"><h3 id="{{cat.id}}_{{subcat.id}}_{{subsubcat.id}}" class="jump">{{subsubcat.title}}</h3></td></tr>
@@ -85,7 +88,7 @@
                     <th><span class="glyphicon glyphicon-globe"></span> Enlace</th>   
                 </tr>
                 <tr ng-repeat-end ng-repeat="item in subsubcat.data">
-                    <td>{{item.name}}</td>
+                    <td class="nombre">{{item.name}}</td>
                     <td>{{item.about}}</td>
                     <td><a href="{{item.url}}" target="_blank">{{item.urltext}}</a></td>
                 </tr>
