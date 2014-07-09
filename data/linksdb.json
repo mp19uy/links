@@ -66,6 +66,12 @@
                 "urltext" : "materialaltoque.blogspot.com"
               },
               {
+                "name" : "CMAT - Uruguay",
+                "about" : "Apuntes realizados por estudiantes y docentes.",
+                "url" : "http://www.cmat.edu.uy/cmat/cursos/licenciatura",
+                "urltext" : "cmat.edu.uy/cmat/cursos/licenciatura"
+              },
+              {
                 "name" : "Paul's Online Math Notes",
                 "about" : "Algebra, Calculus, Diferential Equations, Complex Numbers, Cheatsheets.",
                 "url" : "http://tutorial.math.lamar.edu/",
@@ -598,6 +604,12 @@
                 "about" : "Ingenieria.",
                 "url" : "https://www.youtube.com/channel/UCzG3hrquhYMSevy-o-U50Bg",
                 "urltext" : "youtube.com/channel/UCzG3hrquhYMSevy-o-U50Bg"
+              },
+              {
+                "name" : "Teaching Tree",
+                "about" : " Open platform that lets anybody organize educational content. Our goal is for students to quickly access the exact clips they need in order to learn individual concepts.",
+                "url" : "http://www.teachingtree.co/",
+                "urltext" : "teachingtree.co"
               }
             ]
           },
