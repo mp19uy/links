@@ -718,56 +718,134 @@
     "title" : "Libros",
     "data" : [
       {
-        "id" : "general",
-        "title" : "General",
+        "id" : "download",
+        "title" : "Descargas",
         "data" : [
           {
-            "name" : "Ebook3000",
-            "about" : "Offers a collection of free e-book downloads, grouped by topic.",
-            "url" : "http://www.ebook3000.com/Programming/index.html",
-            "urltext" : "ebook3000.com"
+            "id" : "general",
+            "title" : "General",
+            "data" : [
+              {
+                "name" : "Ebook3000",
+                "about" : "Offers a collection of free e-book downloads, grouped by topic.",
+                "url" : "http://www.ebook3000.com/Programming/index.html",
+                "urltext" : "ebook3000.com"
+              },
+              {
+                "name" : "EBOOKEE",
+                "about" : "Search engine of ebooks on the Internet.",
+                "url" : "http://ebookee.org/",
+                "urltext" : "ebookee.org"
+              },
+              {
+                "name" : "Share Book Free",
+                "about" : "Free eBooks download.",
+                "url" : "http://sharebookfree.com/",
+                "urltext" : "sharebookfree.com"
+              },
+              {
+                "name" : "Soft Archive",
+                "about" : "Unlimited download source.",
+                "url" : "http://softarchive.net/books/",
+                "urltext" : "softarchive.net/books"
+              },
+              {
+                "name" : "AvaxHome",
+                "about" : "One of the major non-torrent file sharing sites.",
+                "url" : "http://avaxhm.com/ebooks",
+                "urltext" : "avaxhm.com/ebooks"
+              },
+              {
+                "name" : "Ebooksmio",
+                "about" : "Daily free ebook downloads!",
+                "url" : "http://ebooksmio.com/",
+                "urltext" : "ebooksmio.com"
+              },
+              {
+                "name" : "World Tracker",
+                "about" : "Non-profit group dedicated to providing a free, secure, open education and communication platform for humans on earth and in space.",
+                "url" : "https://worldtracker.org/Library.html",
+                "urltext" : "worldtracker.org/Library"
+              },
+              {
+                "name" : "Free Libros",
+                "about" : "Este proyecto es una pequeña contribución a todo ese inmenso mundo de información que circula por la red.Y nuestro objetivo es crear contenidos que puedan enriquecer la formación de quienes quieran leerlos.",
+                "url" : "http://www.freelibros.org/",
+                "urltext" : "freelibros.org"
+              }
+            ]
           },
           {
-            "name" : "EBOOKEE",
-            "about" : "Search engine of ebooks on the Internet.",
-            "url" : "http://ebookee.org/",
-            "urltext" : "ebookee.org"
+            "id" : "univ",
+            "title" : "Universitarios",
+            "data" : [
+              {
+                "name" : "El Solucionario",
+                "about" : "Descarga gratis libros y solucionarios, tenemos los mejores textos universitarios.",
+                "url" : "http://www.elsolucionario.net/",
+                "urltext" : "elsolucionario.net"
+              }
+            ]
           },
           {
-            "name" : "Share Book Free",
-            "about" : "Free eBooks download.",
-            "url" : "http://sharebookfree.com/",
-            "urltext" : "sharebookfree.com"
+            "id" : "libre",
+            "title" : "Libres",
+            "data" : [
+              {
+                "name" : "Openlibra",
+                "about" : "",
+                "url" : "http://www.etnassoft.com/biblioteca/",
+                "urltext" : "etnassoft.com/biblioteca"
+              },
+              {
+                "name" : "Wikibooks",
+                "about" : "The open-content textbooks collection that anyone can edit.",
+                "url" : "http://en.wikibooks.org/wiki/Main_Page",
+                "urltext" : "wikibooks.org"
+              },
+              {
+                "name" : "The Free Library",
+                "about" : "Free full-text versions of classic literary works and a massive collection of periodicals from hundreds of leading publications covering Business and Industry, Communications, Entertainment, Health, Humanities, Law, Government, Politics, Recreation and Leisure, Science and Technology, and Social Sciences. This collection includes millions of articles dating back to 1984 as well as newly-published articles.",
+                "url" : "http://www.thefreelibrary.com/",
+                "urltext" : "thefreelibrary.com"
+              },
+              {
+                "name" : "O'Reilly Open Books",
+                "about" : "Published books with various forms of 'open' copyright.",
+                "url" : "http://oreilly.com/openbook/",
+                "urltext" : "oreilly.com/openbook"
+              },
+              {
+                "name" : "O'Reilly Free Books",
+                "about" : "Free books from O'Reilly.",
+                "url" : "http://www.oreilly.com/free/",
+                "urltext" : "oreilly.com/free"
+              }
+            ]
           },
           {
-            "name" : "Soft Archive",
-            "about" : "Unlimited download source.",
-            "url" : "http://softarchive.net/books/",
-            "urltext" : "softarchive.net/books"
+            "id" : "english_learn",
+            "title" : "Aprender Ingles",
+            "data" : [
+              {
+                "name" : "English Tips",
+                "about" : "All English coursebooks... and more. Learning English together!",
+                "url" : "http://englishtips.org/",
+                "urltext" : "englishtips.org"
+              }
+            ]
           },
           {
-            "name" : "AvaxHome",
-            "about" : "One of the major non-torrent file sharing sites.",
-            "url" : "http://avaxhm.com/ebooks",
-            "urltext" : "avaxhm.com/ebooks"
-          },
-          {
-            "name" : "Ebooksmio",
-            "about" : "Daily free ebook downloads!",
-            "url" : "http://ebooksmio.com/",
-            "urltext" : "ebooksmio.com"
-          },
-          {
-            "name" : "World Tracker",
-            "about" : "Non-profit group dedicated to providing a free, secure, open education and communication platform for humans on earth and in space.",
-            "url" : "https://worldtracker.org/Library.html",
-            "urltext" : "worldtracker.org/Library"
-          },
-          {
-            "name" : "Free Libros",
-            "about" : "Este proyecto es una pequeña contribución a todo ese inmenso mundo de información que circula por la red.Y nuestro objetivo es crear contenidos que puedan enriquecer la formación de quienes quieran leerlos.",
-            "url" : "http://www.freelibros.org/",
-            "urltext" : "freelibros.org"
+            "id" : "publicaciones",
+            "title" : "Publicaciones",
+            "data" : [
+              {
+                "name" : "ISSUU",
+                "about" : "Digital publishing platform for magazines, catalogs and more.",
+                "url" : "http://issuu.com/",
+                "urltext" : "issuu.com"
+              }
+            ]
           }
         ]
       },
@@ -776,88 +854,22 @@
         "title" : "Buscadores",
         "data" : [
           {
-            "name" : "Library Genesis",
-            "about" : "Best meta-searcher of books.",
-            "url" : "http://libgen.org/",
-            "urltext" : "libgen.org"
-          },
-          {
-            "name" : "Bookzz",
-            "about" : "Electronic library. Download books free. Finding books.",
-             "url" : "http://bookzz.org/",
-             "urltext" : "bookzz.org"
-          }
-        ]
-      },
-      {
-        "id" : "univ",
-        "title" : "Universitarios",
-        "data" : [
-          {
-            "name" : "El Solucionario",
-            "about" : "Descarga gratis libros y solucionarios, tenemos los mejores textos universitarios.",
-            "url" : "http://www.elsolucionario.net/",
-            "urltext" : "elsolucionario.net"
-          }
-        ]
-      },
-      {
-        "id" : "publicaciones",
-        "title" : "Publicaciones",
-        "data" : [
-          {
-            "name" : "ISSUU",
-            "about" : "Digital publishing platform for magazines, catalogs and more.",
-            "url" : "http://issuu.com/",
-            "urltext" : "issuu.com"
-          }
-        ]
-      },
-      {
-        "id" : "libre",
-        "title" : "Libres",
-        "data" : [
-          {
-            "name" : "Openlibra",
-            "about" : "",
-            "url" : "http://www.etnassoft.com/biblioteca/",
-            "urltext" : "etnassoft.com/biblioteca"
-          },
-          {
-            "name" : "Wikibooks",
-            "about" : "The open-content textbooks collection that anyone can edit.",
-            "url" : "http://en.wikibooks.org/wiki/Main_Page",
-            "urltext" : "wikibooks.org"
-          },
-          {
-            "name" : "The Free Library",
-            "about" : "Free full-text versions of classic literary works and a massive collection of periodicals from hundreds of leading publications covering Business and Industry, Communications, Entertainment, Health, Humanities, Law, Government, Politics, Recreation and Leisure, Science and Technology, and Social Sciences. This collection includes millions of articles dating back to 1984 as well as newly-published articles.",
-            "url" : "http://www.thefreelibrary.com/",
-            "urltext" : "thefreelibrary.com"
-          },
-          {
-            "name" : "O'Reilly Open Books",
-            "about" : "Published books with various forms of 'open' copyright.",
-            "url" : "http://oreilly.com/openbook/",
-            "urltext" : "oreilly.com/openbook"
-          },
-          {
-            "name" : "O'Reilly Free Books",
-            "about" : "Free books from O'Reilly.",
-            "url" : "http://www.oreilly.com/free/",
-            "urltext" : "oreilly.com/free"
-          }
-        ]
-      },
-      {
-        "id" : "english_learn",
-        "title" : "Aprender Ingles",
-        "data" : [
-          {
-            "name" : "English Tips",
-            "about" : "All English coursebooks... and more. Learning English together!",
-            "url" : "http://englishtips.org/",
-            "urltext" : "englishtips.org"
+            "id" : "general",
+            "title" : "Generales",
+            "data" : [
+              {
+                "name" : "Library Genesis",
+                "about" : "Best meta-searcher of books.",
+                "url" : "http://libgen.org/",
+                "urltext" : "libgen.org"
+              },
+              {
+                "name" : "Bookzz",
+                "about" : "Electronic library. Download books free. Finding books.",
+                 "url" : "http://bookzz.org/",
+                 "urltext" : "bookzz.org"
+              }
+            ]
           }
         ]
       }
