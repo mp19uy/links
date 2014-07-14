@@ -400,6 +400,24 @@
                 "about" : "Guia oficial.",
                 "url" : "http://daringfireball.net/projects/markdown/syntax",
                 "urltext" : "daringfireball.net/projects/markdown/syntax"
+              },              
+              {
+                "name" : "Read the Docs",
+                "about" : "Hosts documentation, making it fully searchable and easy to find.",
+                "url" : "https://readthedocs.org/",
+                "urltext" : "readthedocs.org"
+              }
+            ]
+          },
+          {
+            "id" : "blog",
+            "title" : "Blogs",
+            "data" : [
+              {
+                "name" : "Ingenieria Systems",
+                "about" : "Redes, Software, Base de datos, Arquitectura, Auditoria, Microsoft, etc.",
+                "url" : "http://www.ingenieriasystems.com/",
+                "urltext" : "ingenieriasystems.com"
               }
             ]
           },
@@ -424,6 +442,12 @@
                 "about" : "Tips rapidos para geeks.",
                 "url" : "http://www.140geek.com/",
                 "urltext" : "140geek.com"
+              },
+              {
+                "name" : "Arthusu Blog",
+                "about" : "Tip de software, web, seguridad, linux, etc.",
+                "url" : "http://www.arthusu.blogspot.com/",
+                "urltext" : "arthusu.blogspot.com" 
               }
             ]
           },
@@ -448,6 +472,78 @@
                 "about" : "Quality curated lists and tag-sorted links of resources.",
                 "url" : "http://resrc.io/",
                 "urltext" : "resrc.io"
+              },
+              {
+                "name" : "Bento",
+                "about" : "Learn how to code through web development tutorials.",
+                "url" : "http://www.bento.io/",
+                "urltext" : "bento.io"
+              },
+              {
+                "name" : "List of Awesome Sites",
+                "about" : "Music, Learning, Tools, Resources, Forums, Media, Other.",
+                "url" : "http://www.hydromatrix.net/list-of-awesome-sites/",
+                "urltext" : "hydromatrix.net/list-of-awesome-sites"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "prog",
+        "title" : "Programacion",
+        "data" : [
+          {
+            "id" : "cpp",
+            "title" : "C++",
+            "data" : [
+              {
+                "name" : "Learn to Code",
+                "about" : "Simple and advanced programs/codes to help you know the base concepts of C++.",
+                "url" : "http://cppcoderz.blogspot.com/",
+                "urltext" : "cppcoderz.blogspot.com"
+              }
+            ]
+          },
+          {
+            "id" : "python_django",
+            "title" : "Python & Django",
+            "data" : [
+              {
+                "name" : "Planet Python",
+                "about" : "Python news.",
+                "url" : "http://planet.python.org/",
+                "urltext" : "planet.python.org"
+              },
+              {
+                "name" : "Go Django",
+                "about" : "Learn beginner to advanced Django. From using templates to testing, and how to host your awesome creation.",
+                "url" : "https://godjango.com/",
+                "urltext" : "godjango.com"
+              },
+              {
+                "name" : "A Byte of Python",
+                "about" : "Learn to write software using the Python programming language.",
+                "url" : "http://www.swaroopch.com/notes/python/",
+                "urltext" : "swaroopch.com/notes/python"
+              },
+              {
+                "name" : "Learn Python the hard way",
+                "about" : "Most successful beginner programming book on the market.",
+                "url" : "http://learnpythonthehardway.org/",
+                "urltext" : "learnpythonthehardway.org"
+              },
+              {
+                "name" : "Python Argentina",
+                "about" : "Nuestro objetivo es nuclear a los usuarios de Python, de manera de centralizar la comunicación a nivel nacional. Pretendemos llegar a usuarios y empresas, promover el uso de Python, intercambiar información, compartir experiencias y en general, ser el marco de referencia local en el uso y difusión de esta tecnología.",
+                "url" : "http://python.org.ar/",
+                "urltext" : "python.org.ar"
+              },
+              {
+                "name" : "The Django Book",
+                "about" : "A free book about the Django Web framework for the Python programming language.",
+                "url" : "http://djangobook.com/",
+                "urltext" : "djangobook.com"
               }
             ]
           }
@@ -489,7 +585,7 @@
           },
           {
             "id" : "news",
-            "title" : "Actualiad",
+            "title" : "Actualidad",
             "data" : [
               {
                 "name" : "Segu-Info",
@@ -524,14 +620,44 @@
         "title" : "Web",
         "data" : [
           {
-            "id" : "tuto",
-            "title" : "Tutoriales",
+            "id" : "resources",
+            "title" : "Recursos",
             "data" : [
               {
                 "name" : "1Keydata",
                 "about" : "Fee online programming tutorials and information on data warehousing.",
                 "url" : "http://www.1keydata.com/",
                 "urltext" : "1keydata.com"
+              },
+              {
+                "name" : "HTML Dog",
+                "about" : "The web designer’s resource for everything HTML, CSS, and JavaScript, the most common technologies used in making web pages.",
+                "url" : "http://htmldog.com/",
+                "urltext" : "htmldog.com"
+              },
+              {
+                "name" : "Webmonkey",
+                "about" : "The web developer's source.",
+                "url" : "http://www.webmonkey.com/",
+                "urltext" : "webmonkey.com"
+              },
+              {
+                "name" : "W3C",
+                "about" : "Web Education Community Group Wiki! This page contains resources to help you teach or learn modern web development.",
+                "url" : "http://www.w3.org/community/webed/wiki",
+                "urltext" : "w3.org/community/webed/wiki"
+              },
+              {
+                "name" : "Mozilla Developer Network",
+                "about" : "Shared knowledge for the Open Web.",
+                "url" : "https://developer.mozilla.org/",
+                "urltext" : "developer.mozilla.org"
+              },
+              {
+                "name" : "Dev.Opera",
+                "about" : "Dev.Opera covers current and future HTML, CSS and JavaScript features and implementations, responsive web design, browser extensions, and more.",
+                "url" : "http://dev.opera.com/",
+                "urltext" : "dev.opera.com"
               }
             ]
           },
@@ -544,6 +670,48 @@
                 "about" : "Blog de diseño y desarrollo web.",
                 "url" : "http://www.vidamrr.com/",
                 "urltext" : "vidamrr.com"
+              },
+              {
+                "name" : "Maestros del Web",
+                "about" : "Un espacio para los entusiastas del web.",
+                "url" : "http://www.maestrosdelweb.com/",
+                "urltext" : "maestrosdelweb.com"
+              },
+              {
+                "name" : "SitePoint",
+                "about" : "Cutting-edge content for web professionals: developers, designers, programmers, freelancers and site owners.",
+                "url" : "http://www.sitepoint.com/",
+                "urltext" : "sitepoint.com"
+              },
+              {
+                "name" : "Mike Coutermarsh Blog's",
+                "about" : "I'm a software engineer who build web apps, usually in Ruby.",
+                "url" : "http://mikecoutermarsh.com/",
+                "urltext" : "mikecoutermarsh.com"
+              },
+              {
+                "name" : "Productive Rage",
+                "about" : "Dan's techie ramblings.",
+                "url" : "http://productiverage.com/",
+                "urltext" : "productiverage.com"
+              },
+              {
+                "name" : "Secret Geek",
+                "about" : "Articles on Dotnet, Programming, GeekBlock, Website management, Tips n Tricks, Novels, SQL Server, XML.",
+                "url" : "http://secretgeek.net/",
+                "urltext" : "secretgeek.net"
+              }
+            ]
+          },
+          {
+            "id" : "host",
+            "title" : "Hosting",
+            "data" : [
+              {
+                "name" : "Neocities",
+                "about" : "Create your own free website. You get 20 MB of free web space to make whatever you’d like!",
+                "url" : "https://neocities.org/",
+                "urltext" : "neocities.org"
               }
             ]
           },
@@ -598,6 +766,24 @@
         ]
       },
       {
+        "id" : "img",
+        "title" : "Imagenes",
+        "data" : [
+          {
+            "id" : "edition",
+            "title" : "Edicion",
+            "data" : [
+              {
+                "name" : "Gimp users",
+                "about" : "News, tutorials, community, contests about GIMP.",
+                "url" : "http://www.gimpusers.com/",
+                "urltext" : "gimpusers.com"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "id" : "videos",
         "title" : "Videos",
         "data" : [
@@ -616,6 +802,18 @@
                 "about" : " Open platform that lets anybody organize educational content. Our goal is for students to quickly access the exact clips they need in order to learn individual concepts.",
                 "url" : "http://www.teachingtree.co/",
                 "urltext" : "teachingtree.co"
+              }
+            ]
+          },
+          {
+            "id" : "edition",
+            "title" : "Edicion",
+            "data" : [
+              {
+                "name" : "CellSnake007",
+                "about" : "Aprende facil Sony Vegas, Premiere CS5, After Effects, Audition, Illustrator.",
+                "url" : "https://www.youtube.com/user/CellSnake007",
+                "urltext" : "youtube.com/user/CellSnake007"
               }
             ]
           },
@@ -698,6 +896,18 @@
             ]
           },
           {
+            "id" : "distro",
+            "title" : "Distribuciones",
+            "data" : [
+              {
+                "name" : "CrunchBang",
+                "about" : "Modern, Highly customisable and fully-featured desktop Linux experience.",
+                "url" : "http://crunchbang.org",
+                "urltext" : "crunchbang.org"
+              }
+            ]
+          },
+          {
             "id" : "cmds",
             "title" : "Comandos",
             "data" : [
@@ -752,6 +962,18 @@
             ]
           },
           {
+            "id" : "vim",
+            "title" : "Vim",
+            "data" : [
+              {
+                "name" : "A Byte of Vim",
+                "about" : "Learn to write and edit efficiently and effectively using the Vim editor.",
+                "url" : "http://www.swaroopch.com/notes/vim/",
+                "urltext" : "swaroopch.com/notes/vim"
+              }
+            ]
+          },
+          {
             "id" : "tools",
             "title" : "Herramientas",
             "data" : [
@@ -766,6 +988,18 @@
                 "about" : "Simple cross-platform (Linux, Windows, Mac OSX) application for cropping PDF files.",
                 "url" : "http://briss.sourceforge.net/",
                 "urltext" : "briss.sourceforge.net"
+              }
+            ]
+          },
+          {
+            "id" : "blogs",
+            "title" : "Blogs",
+            "data" : [
+              {
+                "name" : "Linux and Life",
+                "about" : " Linux and open source related articles",
+                "url" : "http://www.linuxandlife.com/",
+                "urltext" : "linuxandlife.com"
               }
             ]
           }
@@ -880,6 +1114,18 @@
                 "about" : "Este proyecto es una pequeña contribución a todo ese inmenso mundo de información que circula por la red.Y nuestro objetivo es crear contenidos que puedan enriquecer la formación de quienes quieran leerlos.",
                 "url" : "http://www.freelibros.org/",
                 "urltext" : "freelibros.org"
+              }
+            ]
+          },
+          {
+            "id" : "it",
+            "title" : "IT",
+            "data" : [
+              {
+                "name" : "IT eBooks",
+                "about" : "Free download IT eBooks.",
+                "url" : "http://it-ebooks.info/",
+                "urltext" : "it-ebooks.info"
               }
             ]
           },
@@ -1054,6 +1300,12 @@
                 "about" : "Germany's No. 1 Web hit radio.",
                 "url" : "http://www.top100station.de/",
                 "urltext" : "top100station.de"
+              },
+              {
+                "name" : "Cmd.fm",
+                "about" : "Command-line radio player for computer geeks.",
+                "url" : "https://cmd.fm/",
+                "urltext" : "cmd.fm"
               }
             ]
           },
@@ -1329,6 +1581,96 @@
                 "about" : "From Asia.", 
                 "url" : "http://www.aliexpress.com/", 
                 "urltext" : "aliexpress.com"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id" : "other",
+    "title" : "Otros",
+    "data" : [
+      {
+        "id" : "torrents",
+        "title" : "Torrents",
+        "data" : [
+          {
+            "id" : "track",
+            "title" : "Trackers",
+            "data" : [
+              {
+                "name" : "Torrentz",
+                "about" : "Torrent search engine.",
+                "url" : "http://torrentz.eu/",
+                "urltext" : "torrentz.eu"
+              },
+              {
+                "name" : "TorrentTree",
+                "about" : "Torrent search engine.",
+                "url" : "http://www.torrenttree.com/",
+                "urltext" : "torrenttree.com"
+              },
+              {
+                "name" : "/r/trackers",
+                "about" : "A subreddit dedicated to the discussion of public & private trackers.",
+                "url" : "http://www.reddit.com/r/trackers",
+                "urltext" : "reddit.com/r/trackers"
+              },
+              {
+                "name" : "HDME",
+                "about" : "Private tracker. We aim at providing you the best in HD (High Defination) at the Fastest Speeds possible.",
+                "url" : "http://hdme.eu/",
+                "urltext" : "hdme.eu"
+              }
+            ]
+          },
+          {
+            "id" : "scenews",
+            "title" : "Scene & News",
+            "data" : [
+              {
+                "name" : "Scene Source",
+                "about" : "Latest info on new scene releases.",
+                "url" : "http://www.scnsrc.me/",
+                "urltext" : "scnsrc.me"
+              },
+              {
+                "name" : "Opentrackers",
+                "about" : "A blog for Private torrent trackers & piracy.",
+                "url" : "https://opentrackers.org/",
+                "urltext" : "opentrackers.org"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "dd",
+        "title" : "Descarga directa",
+        "data" : [
+          {
+            "id" : "engine",
+            "title" : "Buscadores",
+            "data" : [
+              {
+                "name" : "G2p",
+                "about" : "Small interface for google queries. Here you can find mp3s, videos, films, softwares and booksthat you usually find in the peer to peer.",
+                "url" : "http://g2p.altervista.org/",
+                "urltext" : "g2p.altervista.org"
+              }
+            ]
+          },
+          {
+            "id" : "direct",
+            "title" : "Directorios",
+            "data" : [
+              {
+                "name" : "/r/opendirectories",
+                "about" : "Protected directories of pics, vids, music, software and otherwise interesting files.",
+                "url" : "http://www.reddit.com/r/opendirectories",
+                "urltext" : "reddit.com/r/opendirectories"
               }
             ]
           }
