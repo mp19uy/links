@@ -856,6 +856,12 @@
                 "about" : "Building Dynamic Websites course from Harvard.",
                 "url" : "http://www.cs75.tv/",
                 "urltext" : "cs75.tv"
+              },
+              {
+                "name" : "Tuts+",
+                "about" : "Learn Creative Skills, Shape Your Future.",
+                "url" : "http://tutsplus.com/",
+                "urltext" : "tutsplus.com"
               }
             ]
           },
