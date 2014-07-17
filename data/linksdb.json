@@ -1452,48 +1452,54 @@
         "id" : "uru",
         "title" : "en Uruguay",
         "data" : [
-          {
-            "name" : "Social Media Day",
-            "about" : "Una iniciativa para celebrar los alcances y el potencial de la revolución digital en torno a los medios sociales.",
-            "url" : "http://www.socialmediaday.com.uy/",
-            "urltext" : "socialmediaday.com.uy"
-          },
-          {
-            "name" : "CISL - Avanza",
-            "about" : "Conferencia de Software Libre y Codigo Abierto. Tiene como objetivo dar a conocer las oportunidades de uso que brindan las aplicaciones de Software Libre.",
-            "url" : "http://www.antel.com.uy/avanza/cisl2014/inicio/",
-            "urltext" : "antel.com.uy/avanza/cisl2014"
-          },
-          {
-            "name" : "TEDxMontevideo",
-            "about" : "Espacio desde el cual se difunde el conocimiento y la sabiduría de los más inspirados pensadores y emprendedores de nuestro país.",
-            "url" : "http://www.tedxmontevideo.org/",
-            "urltext" : "tedxmontevideo.org"
-          },
-          {
-            "name" : "Pecha Kucha Night",
-            "about" : "Es un fenómeno cultural desarrollado en más de 600 ciudades en todo el mundo, donde oradores de disciplinas tan dispares como diseño, ciencia, música, gastronomía o arquitectura exponen sus ideas, proyectos y experiencias.",
-            "url" : "http://pechakuchamontevideo.org/",
-            "urltext" : "pechakuchamontevideo.org"
-          },
-          {
-            "name" : "JIAP",
-            "about" : "Jornadas Informaticas del Uruguay. Las JIAP son un evento anual de capacitación en Tecnologías de la Información y las Comunicaciones, de acceso libre y gratuito de tres días de duración donde se presentan más de 60 conferencias de primer nivel.",
-            "url" : "http://www.asiap.org/AsIAP/index.php/jiap/",
-            "urltext" : "asiap.org/AsIAP/index.php/jiap"
-          },
-          {
-            "name" : "Genexus Meeting",
-            "about" : "Genexus Meeting to get up to date on the latest trends, connect and do business.",
-            "url" : "http://www.genexus.com/meeting2014",
-            "urltext" : "genexus.com/meeting2014"
-          },
-          {
-            "name" : "UY!CG",
-            "about" : "El objetivo del evento es generar espacios que nucleen los esfuerzos de la industria de Computer Graphics. El objetivo es acompañar y potenciar el crecimiento de la industria de CG en Uruguay vinculando a todos los actores, ya sean, personas que recién se inician en el ámbito o empresas ya instaladas, generando vías de comunicación para compartir experiencias, promover conocimientos y el desarrollo e intercambio del arte digital.",
-            "url" : "http://uycg.com.uy/",
-            "urltext" : "uycg.com.uy"
-          }
+            {
+              "id" : "free",
+              "title" : "Gratuitos",
+              "data" : [
+                {
+                  "name" : "Social Media Day",
+                  "about" : "Una iniciativa para celebrar los alcances y el potencial de la revolución digital en torno a los medios sociales.",
+                  "url" : "http://www.socialmediaday.com.uy/",
+                  "urltext" : "socialmediaday.com.uy"
+                },
+                {
+                  "name" : "CISL - Avanza",
+                  "about" : "Conferencia de Software Libre y Codigo Abierto. Tiene como objetivo dar a conocer las oportunidades de uso que brindan las aplicaciones de Software Libre.",
+                  "url" : "http://www.antel.com.uy/avanza/cisl2014/inicio/",
+                  "urltext" : "antel.com.uy/avanza/cisl2014"
+                },
+                {
+                  "name" : "TEDxMontevideo",
+                  "about" : "Espacio desde el cual se difunde el conocimiento y la sabiduría de los más inspirados pensadores y emprendedores de nuestro país.",
+                  "url" : "http://www.tedxmontevideo.org/",
+                  "urltext" : "tedxmontevideo.org"
+                },
+                {
+                  "name" : "Pecha Kucha Night",
+                  "about" : "Es un fenómeno cultural desarrollado en más de 600 ciudades en todo el mundo, donde oradores de disciplinas tan dispares como diseño, ciencia, música, gastronomía o arquitectura exponen sus ideas, proyectos y experiencias.",
+                  "url" : "http://pechakuchamontevideo.org/",
+                  "urltext" : "pechakuchamontevideo.org"
+                },
+                {
+                  "name" : "JIAP",
+                  "about" : "Jornadas Informaticas del Uruguay. Las JIAP son un evento anual de capacitación en Tecnologías de la Información y las Comunicaciones, de acceso libre y gratuito de tres días de duración donde se presentan más de 60 conferencias de primer nivel.",
+                  "url" : "http://www.asiap.org/AsIAP/index.php/jiap/",
+                  "urltext" : "asiap.org/AsIAP/index.php/jiap"
+                },
+                {
+                  "name" : "Genexus Meeting",
+                  "about" : "Genexus Meeting to get up to date on the latest trends, connect and do business.",
+                  "url" : "http://www.genexus.com/meeting2014",
+                  "urltext" : "genexus.com/meeting2014"
+                },
+                {
+                  "name" : "UY!CG",
+                  "about" : "El objetivo del evento es generar espacios que nucleen los esfuerzos de la industria de Computer Graphics. El objetivo es acompañar y potenciar el crecimiento de la industria de CG en Uruguay vinculando a todos los actores, ya sean, personas que recién se inician en el ámbito o empresas ya instaladas, generando vías de comunicación para compartir experiencias, promover conocimientos y el desarrollo e intercambio del arte digital.",
+                  "url" : "http://uycg.com.uy/",
+                  "urltext" : "uycg.com.uy"
+                }
+              ]
+            }
         ]
       }
     ]
