@@ -108,6 +108,48 @@
                 "urltext" : "matleal.wordpress.com"
               },
               {
+                "name" : "",
+                "about" : "Docente Jose Gallardo Ruiz.",
+                "url" : "http://www.lcc.uma.es/~pepeg/docencia.html",
+                "urltext" : "lcc.uma.es/~pepeg/docencia.html"
+              },
+              {
+                "name" : "Universidad de Sevilla",
+                "about" : "Docente Julio Fernandez Garcia.",
+                "url" : "http://personal.us.es/julio/docente.htm",
+                "urltext" : "personal.us.es/julio/docente.htm"
+              },
+              {
+                "name" : "",
+                "about" : "Docente Encarnación Algaba Durán.",
+                "url" : "http://personal.us.es/ealgaba/",
+                "urltext" : "personal.us.es/ealgaba"
+              },
+              {
+                "name" : "Universidad de Valencia",
+                "about" : "Docente Carlos Ivorra.",
+                "url" : "http://www.uv.es/ivorra/",
+                "urltext" : "uv.es/ivorra"
+              },
+              {
+                "name" : "Universidad Nacional Autonoma de Mexico",
+                "about" : "Docente Ricardo Gómez Aíza.",
+                "url" : "http://www.matem.unam.mx/rgomez/cursos.html",
+                "urltext" : "matem.unam.mx/rgomez/cursos.html"
+              },
+              {
+                "name" : "Universidad de Castilla - La Mancha",
+                "about" : "Listado de profesorado.",
+                "url" : "http://www.uclm.es/profesorado/",
+                "urltext" : "uclm.es/profesorado"
+              },
+              {
+                "name" : "",
+                "about" : "Docente Raul Martin.",
+                "url" : "http://www.uclm.es/profesorado/raulmmartin/docencia.html",
+                "urltext" : "uclm.es/profesorado/raulmmartin/docencia.html"
+              },
+              {
                 "name" : "Computer Lab - Cambridge",
                 "about" : "Materials provided by lecturers for CS-Math courses.",
                 "url" : "http://www.cl.cam.ac.uk/teaching",
@@ -208,6 +250,24 @@
                 "about" : "Apuntes matematicos.",
                 "url" : "http://www.sectormatematica.cl/",
                 "urltext" : "sectormatematica.cl"
+              },
+              {
+                "name" : "Proyecto Descartes - Unidades Didacticas",
+                "about" : "Libro interactivo con los contenidos de matematicas en la enseñaza secundaria, organizado por cursos.",
+                "url" : "http://recursostic.educacion.es/descartes/web/indice_ud.php",
+                "urltext" : "recursostic.educacion.es/ descartes/web/indice_ud.php"
+              }
+            ]
+          },
+          {
+            "id" : "pract",
+            "title" : "Resoluciones Practicas",
+            "data" : [
+              {
+                "name" : "Colección de Problemas Resueltos",
+                "about" : "Fundamentos Matemáticos de la Ingeniería. Ingeniería Técnica Industrial. Especialidad Mecánica. Curso 2004-05.",
+                "url" : "http://blog.espol.edu.ec/econde/files/2010/09/coleccion-de-problemas-resueltos.pdf",
+                "urltext" : "blog.espol.edu.ec/econde/files/2010/09/ coleccion-de-problemas-resueltos.pdf"
               }
             ]
           }
@@ -244,6 +304,18 @@
                 "about" : "English Wikipedia.",
                 "url" : "https://en.wikibooks.org/wiki/LaTeX/",
                 "urltext" : "wikibooks.org/wiki/LaTeX"
+              }
+            ]
+          },
+          {
+            "id" : "ggebra",
+            "title" : "GeoGebra",
+            "data" : [
+              {
+                "name" : "GeoGebra Wiki",
+                "about" : "Manual, tutorials, forum, tips and tricks.",
+                "url" : "http://wiki.geogebra.org/en/Main_Page",
+                "urltext" : "wiki.geogebra.org"
               }
             ]
           }
@@ -1144,6 +1216,12 @@
                 "about" : "Este proyecto es una pequeña contribución a todo ese inmenso mundo de información que circula por la red.Y nuestro objetivo es crear contenidos que puedan enriquecer la formación de quienes quieran leerlos.",
                 "url" : "http://www.freelibros.org/",
                 "urltext" : "freelibros.org"
+              },
+              {
+                "name" : "Scribd",
+                "about" : "Scribd is your personal digital library, where you have unlimited access to the world’s largest collection of e-books and written works.",
+                "url" : "http://www.scribd.com",
+                "urltext" : "scribd.com"
               }
             ]
           },
@@ -1336,6 +1414,18 @@
                 "about" : "Command-line radio player for computer geeks.",
                 "url" : "https://cmd.fm/",
                 "urltext" : "cmd.fm"
+              },
+              {
+                "name" : "Radio Paradise",
+                "about" : "RP is a blend of many styles and genres of music, carefully selected and mixed by two real human beings. You'll hear modern and classic rock, world music, electronica, even a bit of classical and jazz.",
+                "url" : "www.radioparadise.com/",
+                "urltext" : "radioparadise.com"
+              },
+              {
+                "name" : "Soma FM",
+                "about" : "Over 20 unique channels of listener-supported, commercial-free, underground/alternative radio broadcasting from San Francisco. All music hand-picked by SomaFM's award-winning DJs and music directors.",
+                "url" : "http://somafm.com/",
+                "urltext" : "somafm.com"
               }
             ]
           },
@@ -1448,7 +1538,26 @@
   {
     "id" : "vid",
     "title" : "Videos",
-    "data" : []
+    "data" : [
+      {
+        "id" : "movie",
+        "title" : "Peliculas",
+        "data" : [
+          {
+            "id" : "stream",
+            "title" : "Streaming",
+            "data" : [
+              {
+                "name" : "zmovie",
+                "about" : "Archive, Large Collection of Free Full Length Movies. Watch Video Online, Download Stream Content. Movie times, bootleg, trailers, reviews, soundtrack.",
+                "url" : "http://www.zmovie.tw/",
+                "urltext" : "zmovie.tw"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "id" : "eventos",

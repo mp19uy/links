@@ -43,6 +43,10 @@ h2.jump {
   font-size: 19px;
   color: #1b2a2a;
 }
+#disclaimer{
+  margin-bottom: 160px;
+  text-align: center;
+}
 #footer {
  padding-top: 125px;
   background-image: -webkit-gradient(linear, left 0%, left 99%, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 1)));
@@ -100,8 +104,9 @@ color: rgba(75, 75, 75, 0.1);
 th {
     text-align: center;
 }
-td{
+td {
     text-align: center;
+    vertical-align: middle !important;
 }
 .navbar-custom {
   background-color: #20bd55;
