@@ -72,6 +72,12 @@
                 "urltext" : "4shared.com/folder/K4mPTfEz"
               },
               {
+                "name" : "",
+                "about" : "Material Instituto IFC.",
+                "url" : "http://ifc.edu.uy/ingenieria/",
+                "urltext" : "ifc.edu.uy/ingenieria"
+              },
+              {
                 "name" : "CMAT - Uruguay",
                 "about" : "Apuntes realizados por estudiantes y docentes.",
                 "url" : "http://www.cmat.edu.uy/cmat/cursos/licenciatura",
