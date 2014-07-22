@@ -376,6 +376,12 @@
                 "about" : "Comunidad matematica.",
                 "url" : "http://www.fmat.cl/index.php?act=idx",
                 "urltext" : "fmat.cl"
+              },
+              {
+                "name" : "Rincon Matematico",
+                "about" : "Foro dedicado a temas de matemática y su enseñanza, así como disciplinas afines: física, química, computación, etc.",
+                "url" : "http://rinconmatematico.com/",
+                "urltext" : "rinconmatematico.com"
               }
             ]
           },
