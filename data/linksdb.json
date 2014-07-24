@@ -568,6 +568,12 @@
                 "about" : "Music, Learning, Tools, Resources, Forums, Media, Other.",
                 "url" : "http://www.hydromatrix.net/list-of-awesome-sites/",
                 "urltext" : "hydromatrix.net/list-of-awesome-sites"
+              },
+              {
+                "name" : "No Excuse List",
+                "about" : "The best place on the web to learn anything, free.",
+                "url" : "http://noexcuselist.com/",
+                "urltext" : "noexcuselist.com"
               }
             ]
           }
@@ -766,6 +772,18 @@
                 "about" : "Dev.Opera covers current and future HTML, CSS and JavaScript features and implementations, responsive web design, browser extensions, and more.",
                 "url" : "http://dev.opera.com/",
                 "urltext" : "dev.opera.com"
+              },
+              {
+                "name" : "Dash",
+                "about" : "Teaches HTML, CSS, and Javascript through fun projects you can do in your browser.",
+                "url" : "https://dash.generalassemb.ly/",
+                "urltext" : "dash.generalassemb.ly"
+              },
+              {
+                "name" : "Codeacademy",
+                "about" : "Teaches programming using an engagingly light and entertaining approach that relaxes users, including those intimidated by technology and establishes an interactive environment that is highly conducive to learning.",
+                "url" : "http://codeacademy.com/",
+                "urltext" : "codeacademy.com"
               }
             ]
           },
@@ -946,6 +964,12 @@
                 "about" : "Learn Creative Skills, Shape Your Future.",
                 "url" : "http://tutsplus.com/",
                 "urltext" : "tutsplus.com"
+              },
+              {
+                "name" : "SkilledUp",
+                "about" : "Find the Best Online Courses. Over 70,000 courses from 300+ providers.",
+                "url" : "http://www.skilledup.com/",
+                "urltext" : "skilledup.com"
               }
             ]
           },
