@@ -7,11 +7,11 @@
     <title>L!NKS - Coleccion de links a sitios con material de utilidad.</title>
     
     <!-- Bootstrap CSS CDN -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <!-- CSS -->
-        <link href="/links/css/style.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
     <!-- Icons -->
-        <link rel="stylesheet" href="/links/css/elusive-webfont.css">
+        <link rel="stylesheet" href="css/elusive-webfont.css">
     <!-- Font -->
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
     
@@ -34,9 +34,9 @@
     </div></li>
           <li class="nav-item" ng-repeat="cat in categs"><a href="#" class="dropdown-toggle" data-toggle="dropdown">{{cat.title}}</a>
            <ul class="dropdown-menu" role="menu">
-             <li ng-repeat="e in cat.data" class="dropdown-submenu"><a href="/links/index.html#{{cat.id}}_{{e.id}}">{{e.title}}</a>
+             <li ng-repeat="e in cat.data" class="dropdown-submenu"><a href="index.html#{{cat.id}}_{{e.id}}">{{e.title}}</a>
              <ul class=" nav-item dropdown-menu" role="menu">
-               <li ng-repeat="c in e.data"><a href="/links/index.html#{{cat.id}}_{{e.id}}_{{c.id}}">{{c.title}}</a></li>
+               <li ng-repeat="c in e.data"><a href="index.html#{{cat.id}}_{{e.id}}_{{c.id}}">{{c.title}}</a></li>
              </ul>
              </li>
            </ul>
@@ -108,7 +108,7 @@
     <!-- jQuery CDN -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Bootstrap CDN -->
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <!--Angular JS framework-->
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
     <!-- Read Json script -->

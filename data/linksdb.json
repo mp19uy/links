@@ -34,6 +34,12 @@
                 "about" : "Diccionario de matematicas.", 
                 "url" : "http://www.ditutor.com/", 
                 "urltext" : "ditutor.com"
+              },
+              {
+                "name" : "Proof Wiki",
+                "about" : "Online compendium of mathematical proofs.",
+                "url" : "https://proofwiki.org/",
+                "urltext" : "proofwiki.org"
               }
             ]
           },
@@ -734,6 +740,24 @@
         "title" : "Web",
         "data" : [
           {
+            "id" : "cheat",
+            "title" : "Cheatsheets",
+            "data" : [
+              {
+                "name" : "Cascading Style Sheets (CSS 3)",
+                "about" : "Quick Reference Guide.",
+                "url" : "http://coding.smashingmagazine.com/wp-content/uploads/images/css3-cheat-sheet/css3-cheat-sheet.pdf",
+                "urltext" : "coding.smashingmagazine.com/ ... /css3-cheat-sheet.pdf"
+              },
+              {
+                "name" : "HTML 5",
+                "about" : "Quick Reference Guide.",
+                "url" : "http://www.smashingmagazine.com/wp-content/uploads/images/html5-cheat-sheet/html5-cheat-sheet.pdf",
+                "urltext" : "smashingmagazine.com/ ... /html5-cheat-sheet.pdf"
+              }
+            ]
+          },
+          {
             "id" : "resources",
             "title" : "Recursos",
             "data" : [
@@ -826,6 +850,12 @@
                 "about" : "Articles on Dotnet, Programming, GeekBlock, Website management, Tips n Tricks, Novels, SQL Server, XML.",
                 "url" : "http://secretgeek.net/",
                 "urltext" : "secretgeek.net"
+              },
+              {
+                "name" : "Smashing Magazine",
+                "about" : "Useful and innovative information to Web designers and developers. Our aim is to inform our readers about the latest trends and techniques in Web development.",
+                "url" : "http://www.smashingmagazine.com/",
+                "urltext" : "smashingmagazine.com"
               }
             ]
           },
