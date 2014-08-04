@@ -1042,6 +1042,12 @@
                 "about" : "Application designed to help beginners grasp the powerful concepts behind branching when working with git.",
                 "url" : "http://pcottle.github.io/learnGitBranching/",
                 "urltext" : "pcottle.github.io/learnGitBranching"
+              },
+              {
+                "name" : "Git Tutorials",
+                "about" : "This is an introduction to Git using visual guides to workflows and Git commands, with examples. Keep your current workflow style while enjoying the lightweight and feature-rich benefits that Git has to offer.",
+                "url" : "https://www.atlassian.com/git",
+                "urltext" : "atlassian.com/git"
               }
             ]
           }
