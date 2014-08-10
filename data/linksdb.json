@@ -922,6 +922,30 @@
         ]
       },
       {
+        "id" : "virtual",
+        "title" : "Virtualizacion",
+        "data" : [
+          {
+            "id" : "vagrant",
+            "title" : "Vagrant",
+            "data" : [
+              {
+                "name" : "Vagrant",
+                "about" : "Development environments made easy. Create and configure lightweight, reproducible, and portable development environments.",
+                "url" : "http://www.vagrantup.com/",
+                "urltext" : "vagrantup.com"
+              },
+              {
+                "name" : "Vagrant Begginers Guide",
+                "about" : "A beginners guide to Vagrant - getting your portable development environment.",
+                "url" : "http://www.erikaheidi.com/blog/a-begginers-guide-to-vagrant-getting-your-portable-development-e",
+                "urltext" : "erikaheidi.com/blog/ a-begginers-guide-to-vagrant-getting-your-portable-development-e"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "id" : "img",
         "title" : "Imagenes",
         "data" : [
