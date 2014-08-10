@@ -1186,6 +1186,12 @@
                 "about" : "Simple cross-platform (Linux, Windows, Mac OSX) application for cropping PDF files.",
                 "url" : "http://briss.sourceforge.net/",
                 "urltext" : "briss.sourceforge.net"
+              },
+              {
+                "name" : "Convert Windows<->Linux text files",
+                "about" : "How to Convert DOS Newlines CR-LF to Unix/Linux Format and viceversa.",
+                "url" : "http://www.cyberciti.biz/faq/howto-unix-linux-convert-dos-newlines-cr-lf-unix-text-format/",
+                "urltext" : "cyberciti.biz/faq/howto-unix-linux-convert-dos-newlines-cr-lf-unix-text-format"
               }
             ]
           },
@@ -1198,6 +1204,18 @@
                 "about" : " Linux and open source related articles",
                 "url" : "http://www.linuxandlife.com/",
                 "urltext" : "linuxandlife.com"
+              },
+              {
+                "name" : "Ubuntu Genius",
+                "about" : "Cool UBUNTU Tips & Tricks brought to you by OzzyFrank.",
+                "url" : "http://ubuntugenius.wordpress.com/",
+                "urltext" : "ubuntugenius.wordpress.com"
+              },
+              {
+                "name" : "nixCraft",
+                "about" : "Linux Tips, Hacks, Tutorials for beginners and advanced users, Ideas.",
+                "url" : "http://www.cyberciti.biz/",
+                "urltext" : "cyberciti.biz"
               }
             ]
           }
