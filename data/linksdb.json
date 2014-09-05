@@ -1728,7 +1728,19 @@
                   "urltext" : "uycg.com.uy"
                 }
               ]
-            }
+            },
+			{
+				"id" : "sport",
+				"title" : "Deportes",
+				"data" : [
+				  	{
+				  	  "name" : "Correr UY",
+				  	  "about" : "Cronograma de eventos deportivos.",
+				  	  "url" : "http://www.correr.uy/",
+				  	  "urltext" : "correr.uy"
+				  	}
+				]
+			}
         ]
       }
     ]
