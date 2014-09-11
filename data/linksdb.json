@@ -1674,6 +1674,36 @@
     ]
   },
   {
+  	"id" : "ocio",
+  	"title" : "Ocio",
+  	"data" : [
+  	{
+  		"id" : "puzzles",
+  		"title" : "Puzzles",
+  		"data" : [
+  			{
+  				"id" : "rubik",
+  				"title" : "Rubik's Cube",
+  				"data" : [
+  					{
+  					  "name" : "Andy Klise's Rubik's Cube Guide",
+  					  "about" : "Each guide is designed to contain every algorithm you need to solve the cube, but assumes that you know the basics of how to link them all together.",
+  					  "url" : "http://www.kungfoomanchu.com/",
+  					  "urltext" : "kungfoomanchu.com"
+  					},
+  					{
+  					  "name" : "Speedcubing",
+  					  "about" : "All Puzzles, All the time.",
+  					  "url" : "http://www.speedsolving.com/",
+  					  "urltext" : "speedsolving.com"
+  					}
+  				]
+  			}
+  		]
+  	}
+  	]
+  },
+  {
     "id" : "eventos",
     "title" : "Eventos",
     "data" : [
