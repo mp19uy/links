@@ -1712,6 +1712,18 @@
         "title" : "en Uruguay",
         "data" : [
             {
+              "id" : "meetup",
+              "title" : "Meetups",
+              "data" : [
+                {
+                  "name" : "#meetupUY",
+                  "about" : "Indice de eventos de tecnologia en Uruguay.",
+                  "url" : "http://meetup.uy/",
+                  "urltext" : "meetup.uy"
+                }
+              ]
+            },
+            {
               "id" : "free",
               "title" : "Gratuitos",
               "data" : [
@@ -1759,18 +1771,60 @@
                 }
               ]
             },
-			{
-				"id" : "sport",
-				"title" : "Deportes",
-				"data" : [
-				  	{
-				  	  "name" : "Correr UY",
-				  	  "about" : "Cronograma de eventos deportivos.",
-				  	  "url" : "http://www.correr.uy/",
-				  	  "urltext" : "correr.uy"
-				  	}
-				]
-			}
+            {
+              "id" : "pay",
+              "title" : "Pagos",
+              "data" : [
+                {
+                  "name" : "techMeetup UY",
+                  "about" : "La conferencia busca ser el día de reunión de todas las comunidades de tecnología de Uruguay, donde sus integrantes podrán intercambiar ideas y conocimiento para llevar sus comunidades al siguiente nivel.",
+                  "url" : "http://tech.meetup.uy/",
+                  "urltext" : "tech.meetup.uy"
+                }
+              ]
+            },
+      			{
+      				"id" : "sport",
+      				"title" : "Deportes",
+      				"data" : [
+      				  	{
+      				  	  "name" : "Correr UY",
+      				  	  "about" : "Cronograma de eventos deportivos.",
+      				  	  "url" : "http://www.correr.uy/",
+      				  	  "urltext" : "correr.uy"
+      				  	}
+      				]
+      			}
+        ]
+      },
+      {
+        "id" : "lat",
+        "title" : "en Latinoamerica",
+        "data" : [
+          {
+            "id" : "free",
+            "title" : "Gratuitos",
+            "data" : [
+              {
+                "name" : "UbuConLA",
+                "about" : "Un acontecimiento internacional, anual e itinerante para Latinoamerica surgido a partir de una idea común entre miembros de los grupos comunitarios locales de Ubuntu en Argentina y Uruguay, a los que se sumaron los grupos locales de Colombia, Brasil, Peru, Mexico y Venezuela.",
+                "url" : "http://www.ubuconla.org/",
+                "urltext" : "ubuconla.org"
+              }
+            ]
+          },
+          {
+            "id" : "pay",
+            "title" : "Pagos",
+            "data" : [
+              {
+                "name" : "Conferencia Latinoamericana en Informatica",
+                "about" : "CLEI es una institución sin fines de lucro, que reune a las Universidades y Centros de Investigación Latinoamericanos más importantes y prestigiosos en el área de investigación y docencia en Informática.",
+                "url" : "http://clei.org/",
+                "urltext" : "clei.org"
+              }
+            ]
+          }
         ]
       }
     ]
