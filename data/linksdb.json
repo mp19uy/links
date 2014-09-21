@@ -580,6 +580,12 @@
                 "about" : "The best place on the web to learn anything, free.",
                 "url" : "http://noexcuselist.com/",
                 "urltext" : "noexcuselist.com"
+              },
+              {
+                "name" : "Recopilación de charlas y videos de codemotion 2013 madrid",
+                "about" : "",
+                "url" : "http://betabeers.com/forum/recopilacion-charlas-videos-codemotion-2013-madrid-381/",
+                "urltext" : "betabeers.com/forum/recopilacion-charlas-videos-codemotion-2013-madrid-381"
               }
             ]
           }
@@ -1024,6 +1030,12 @@
                 "about" : "Find the Best Online Courses. Over 70,000 courses from 300+ providers.",
                 "url" : "http://www.skilledup.com/",
                 "urltext" : "skilledup.com"
+              },
+              {
+                "name" : "Open2Study",
+                "about" : "Free online study for everyone!",
+                "url" : "https://www.open2study.com",
+                "urltext" : "open2study.com"
               }
             ]
           },
@@ -1780,6 +1792,18 @@
                   "about" : "La conferencia busca ser el día de reunión de todas las comunidades de tecnología de Uruguay, donde sus integrantes podrán intercambiar ideas y conocimiento para llevar sus comunidades al siguiente nivel.",
                   "url" : "http://tech.meetup.uy/",
                   "urltext" : "tech.meetup.uy"
+                },
+                {
+                  "name" : ".NET Conf UY",
+                  "about" : "Evento sobre lo último en tecnologías Microsoft y mucho más con los mejores expertos internacionales, nacionales y de la región, una oportunidad única donde aprender, compartir, hacer networking y divertirse!",
+                  "url" : "http://netconf.uy/",
+                  "urltext" : "netconf.uy"
+                },
+                {
+                  "name" : "RubyConf Uruguay",
+                  "about" : "RubyConf Uruguay es una conferencia que tiene como objetivo el ayudar a generar redes y colaboración en nuestra comunidad de desarrolladores.",
+                  "url" : "http://www.rubyconfuruguay.org/",
+                  "urltext" : "rubyconfuruguay.org"
                 }
               ]
             },
@@ -1826,6 +1850,24 @@
             ]
           }
         ]
+      },
+      {
+        "id" : "euro",
+        "title" : "en Europa",
+        "data" : [
+          {
+            "id" : "pay",
+            "title" : "Pagos",
+            "data" : [
+              {
+                "name" : "Codemotion",
+                "about" : "One of the biggest technical conference in Europe, with an international network of 30.000 developers and 300 speakers from all over the world and from the most important IT realities.",
+                "url" : "http://www.codemotionworld.com/",
+                "urltext" : "codemotionworld.com"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -1833,6 +1875,18 @@
     "id" : "buy",
     "title" : "Compras",
     "data" : [
+      {
+        "id" : "info",
+        "title" : "Informacion",
+        "data" : [
+          {
+            "name" : "FAQ Compras por Internet desde Uruguay",
+            "about" : "En este artículo resumo las preguntas más frecuentes y sus respuestas sobre Compras en el exterior desde Uruguay.",
+            "url" : "http://federicodelossantos.com/fede_blog/2014/09/preguntas-frecuentes-compras-por-internet-desde-uruguay/",
+            "urltext" : "federicodelossantos.com/fede_blog/2014/09/preguntas-frecuentes-compras-por-internet-desde-uruguay"
+          }
+        ]
+      },
       {
         "id" : "hardware",
         "title" : "Hardware",
